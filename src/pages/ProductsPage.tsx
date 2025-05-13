@@ -174,7 +174,7 @@ const ProductsPage = () => {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07"
+                src="https://media-public.canva.com/MADAy0ggNxQ/1/thumbnail_large-1.jpg"
                 alt="Custom products"
                 className="rounded-lg shadow-xl"
               />
