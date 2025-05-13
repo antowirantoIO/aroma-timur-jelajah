@@ -220,9 +220,7 @@ const BlogPage = () => {
           <div className="mt-16 flex justify-center">
             <div className="flex space-x-2">
               <button className="w-10 h-10 rounded-full bg-terracotta text-white flex items-center justify-center">1</button>
-              <button className="w-10 h-10 rounded-full bg-white hover:bg-warmgrey/10 text-deepbrown flex items-center justify-center">2</button>
-              <button className="w-10 h-10 rounded-full bg-white hover:bg-warmgrey/10 text-deepbrown flex items-center justify-center">3</button>
-              <button className="w-10 h-10 rounded-full bg-white hover:bg-warmgrey/10 text-deepbrown flex items-center justify-center">
+              <button disabled className="w-10 h-10 rounded-full bg-white hover:bg-warmgrey/10 text-deepbrown flex items-center justify-center">
                 <ArrowRight className="h-4 w-4" />
               </button>
             </div>

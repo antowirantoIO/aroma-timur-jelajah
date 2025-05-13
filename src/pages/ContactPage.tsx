@@ -23,18 +23,41 @@ const ContactPage = () => {
     setFormStatus('submitting');
     
     // Simulate API call
-    setTimeout(() => {
-      setFormStatus('success');
-      // Reset form after success (optional)
-      setFormData({
-        name: '',
-        email: '',
-        company: '',
-        phone: '',
-        subject: '',
-        message: ''
-      });
-    }, 1500);
+    // setTimeout(() => {
+    //   // Reset form after success (optional)
+    //   setFormData({
+    //     name: '',
+    //     email: '',
+    //     company: '',
+    //     phone: '',
+    //     subject: '',
+    //     message: ''
+    //   });
+    // }, 1500);
+
+    const message = `
+Halo!
+
+Saya ingin mengirimkan pesan terkait:
+
+Nama: ${formData.name}
+Email: ${formData.email}
+Perusahaan: ${formData.company}
+Telepon: ${formData.phone}
+Subjek: ${formData.subject}
+
+Isi Pesan:
+${formData.message}
+
+Terima kasih!
+`;
+
+// akses link https://wa.me/+6281223378900
+    const waLink = `https://wa.me/+6281223378900?text=${encodeURIComponent(message)}`;
+    setFormStatus('success');
+
+    window.open(waLink, '_blank');
+
   };
   
   return (
@@ -248,18 +271,21 @@ const ContactPage = () => {
               <div className="bg-white p-2 rounded-lg shadow-md mb-6">
                 {/* Embed Google Maps iframe here */}
                 <div className="w-full h-96 bg-warmgrey/20 rounded-md flex items-center justify-center">
-                  <p className="text-deepbrown/60">Google Maps akan ditampilkan di sini</p>
+                  <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5420.696839661808!2d123.6261812!3d-10.144169000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c5683000fd46b59%3A0xa1b80e3ffd5fbdc0!2sUD%20MANALAGI%20NAM%20PARADISO!5e1!3m2!1sen!2sid!4v1747144394821!5m2!1sen!2sid"
+                      width="600" height="380" loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </div>
-              
+
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-playfair font-bold mb-4 flex items-center">
-                  <Clock className="h-5 w-5 mr-2 text-terracotta" />
+                  <Clock className="h-5 w-5 mr-2 text-terracotta"/>
                   Jam Operasional
                 </h3>
                 <ul className="space-y-2">
                   <li className="flex justify-between">
-                    <span className="font-medium">Senin - Jumat</span>
+                  <span className="font-medium">Senin - Jumat</span>
                     <span>08:00 - 17:00 WITA</span>
                   </li>
                   <li className="flex justify-between">
