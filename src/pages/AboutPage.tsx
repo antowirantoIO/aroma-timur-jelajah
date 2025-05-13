@@ -88,41 +88,6 @@ const AboutPage = () => {
         </div>
       </section>
       
-      <section className="py-20 bg-beige">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <h2 className="heading-lg mb-4">
-              <span className="golden-border pb-2">Tim di Balik Keunggulan</span>
-            </h2>
-            <p className="paragraph max-w-3xl mx-auto">
-              Berkenalan dengan individu-individu berbakat yang mendedikasikan karya mereka untuk memastikan kualitas terbaik dari CV. Manalagi.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Team members would go here - placeholder for now */}
-            <div className="card-highlight text-center">
-              <div className="w-24 h-24 bg-warmgrey/20 rounded-full mx-auto mb-4"></div>
-              <h3 className="font-playfair font-bold text-xl mb-2">Nama Pimpinan</h3>
-              <p className="text-terracotta mb-3">Direktur Utama</p>
-              <p className="text-deepbrown/80 text-sm">"Kualitas produk adalah refleksi integritas kami."</p>
-            </div>
-            <div className="card-highlight text-center">
-              <div className="w-24 h-24 bg-warmgrey/20 rounded-full mx-auto mb-4"></div>
-              <h3 className="font-playfair font-bold text-xl mb-2">Nama Manajer Operasional</h3>
-              <p className="text-terracotta mb-3">Manajer Operasional</p>
-              <p className="text-deepbrown/80 text-sm">"Setiap proses dijalankan dengan presisi dan standar tinggi."</p>
-            </div>
-            <div className="card-highlight text-center">
-              <div className="w-24 h-24 bg-warmgrey/20 rounded-full mx-auto mb-4"></div>
-              <h3 className="font-playfair font-bold text-xl mb-2">Nama Quality Control</h3>
-              <p className="text-terracotta mb-3">Kepala Quality Control</p>
-              <p className="text-deepbrown/80 text-sm">"Kami berkomitmen pada standar tanpa kompromi."</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      
       <section className="py-20 bg-forestgreen text-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">

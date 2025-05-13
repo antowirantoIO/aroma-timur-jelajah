@@ -78,13 +78,8 @@ const ContactPage = () => {
               </div>
               <h3 className="text-xl font-playfair font-bold mb-3">Telepon</h3>
               <p className="text-deepbrown/80 mb-2">
-                <a href="tel:+6281234588819" className="hover:text-terracotta hover:underline">
-                  +62 8123 4588 819
-                </a>
-              </p>
-              <p className="text-deepbrown/80 mb-4">
-                <a href="tel:+6282135440102" className="hover:text-terracotta hover:underline">
-                  +62 8213 5440 102
+                <a href="https://wa.me/+6281223378900" className="hover:text-terracotta hover:underline">
+                  +62 812 2337 8900
                 </a>
               </p>
               <p className="text-sm text-deepbrown/60">
@@ -291,7 +286,7 @@ const ContactPage = () => {
             CV. Manalagi Barokah Makmur Abadi selalu terbuka untuk kemitraan strategis yang saling menguntungkan dengan berbagai pihak, mulai dari petani lokal hingga distributor internasional.
           </p>
           <a 
-            href="tel:+6281234588819" 
+            href="https://wa.me/+6281223378900"
             className="bg-white text-forestgreen hover:bg-white/90 transition-colors font-semibold px-8 py-4 rounded-md shadow-md hover:shadow-lg tracking-wide uppercase inline-block"
           >
             HUBUNGI KAMI SEKARANG

@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-beige/95 backdrop-blur-md shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container-custom flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <span className="font-playfair font-bold text-2xl text-deepbrown">
+          <span className={`${!isScrolled ? 'text-terracotta' : ''} font-playfair font-bold text-2xl text-deepbrown`}>
             CV. <span className="text-terracotta">Manalagi</span>
           </span>
         </Link>
@@ -39,25 +39,25 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-8">
           <Link 
             to="/"
-            className={`font-opensans font-medium hover:text-terracotta transition-colors ${location.pathname === '/' ? 'text-terracotta' : 'text-deepbrown'}`}
+            className={`font-opensans font-medium hover:text-terracotta transition-colors ${(location.pathname === '/' || !isScrolled) ? 'text-terracotta' : 'text-deepbrown'}`}
           >
             Beranda
           </Link>
           <Link 
             to="/about"
-            className={`font-opensans font-medium hover:text-terracotta transition-colors ${location.pathname === '/about' ? 'text-terracotta' : 'text-deepbrown'}`}
+            className={`font-opensans font-medium hover:text-terracotta transition-colors ${(location.pathname === '/about' || !isScrolled) ? 'text-terracotta' : 'text-deepbrown'}`}
           >
             Tentang Kami
           </Link>
           <Link 
             to="/products"
-            className={`font-opensans font-medium hover:text-terracotta transition-colors ${location.pathname.includes('/products') ? 'text-terracotta' : 'text-deepbrown'}`}
+            className={`font-opensans font-medium hover:text-terracotta transition-colors ${(location.pathname.includes('/products') || !isScrolled) ? 'text-terracotta' : 'text-deepbrown'}`}
           >
             Produk
           </Link>
           <Link 
             to="/blog"
-            className={`font-opensans font-medium hover:text-terracotta transition-colors ${location.pathname.includes('/blog') ? 'text-terracotta' : 'text-deepbrown'}`}
+            className={`font-opensans font-medium hover:text-terracotta transition-colors ${(location.pathname.includes('/blog') || !isScrolled) ? 'text-terracotta' : 'text-deepbrown'}`}
           >
             Blog
           </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
         
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-deepbrown hover:text-terracotta focus:outline-none"
+          className={`md:hidden text-deepbrown ${!isScrolled ? 'text-terracotta' : ''} hover:text-terracotta focus:outline-none`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}

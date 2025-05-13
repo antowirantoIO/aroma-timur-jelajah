@@ -60,16 +60,6 @@ const TestimonialsSection = () => {
             </div>
           ))}
         </div>
-        
-        <div className="mt-16 text-center">
-          <div className="inline-flex flex-wrap justify-center gap-6 items-center">
-            <span className="text-white/60 font-semibold">Dipercaya oleh:</span>
-            <div className="bg-white/20 px-6 py-3 rounded">Logo Client 1</div>
-            <div className="bg-white/20 px-6 py-3 rounded">Logo Client 2</div>
-            <div className="bg-white/20 px-6 py-3 rounded">Logo Client 3</div>
-            <div className="bg-white/20 px-6 py-3 rounded">Logo Client 4</div>
-          </div>
-        </div>
       </div>
     </section>
   );
