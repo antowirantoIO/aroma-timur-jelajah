@@ -17,11 +17,11 @@ const products = [
     specifications: ["Ukuran: 1.5-2cm", "Kadar air: <5%", "Metode pengolahan: Sun-dried", "Kadar minyak: 60-65%"],
     storage: "Simpan di tempat kering dan sejuk. Hindari paparan sinar matahari langsung. Tutup rapat kemasan setelah dibuka.",
     packaging: ["Kemasan retail 500g", "Kemasan bulk 5kg dan 25kg", "Kemasan custom sesuai kebutuhan"],
-    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027",
+    image: "https://media-public.canva.com/o5pBU/MAFdWzo5pBU/1/tl.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1472396961693-142e6e269027",
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+      "https://media-public.canva.com/o5pBU/MAFdWzo5pBU/1/tl.jpg",
+      "https://media-public.canva.com/MADJlI5i8rs/1/thumbnail_large.jpg",
+      "https://media-public.canva.com/MADCgFUwZTs/1/thumbnail_large-1.jpg"
     ]
   },
   {
@@ -37,14 +37,13 @@ const products = [
     specifications: ["Bentuk: Pasta/Pulp", "Kadar air: 15-20%", "Keasaman: Medium-high", "Bebas biji dan kotoran"],
     storage: "Simpan di tempat kering dan sejuk. Untuk daya simpan lebih lama, simpan di kulkas setelah kemasan dibuka.",
     packaging: ["Kemasan retail 250g dan 500g", "Kemasan bulk 5kg", "Kemasan vacuum-sealed 1kg"],
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    image: "https://media-public.canva.com/JfZcI/MADza5JfZcI/1/tl.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
-      "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07"
+      "https://media-public.canva.com/JfZcI/MADza5JfZcI/1/tl.jpg",
+      "https://media-public.canva.com/JfZcI/MADza5JfZcI/1/tl.jpg",
+      "https://media-public.canva.com/c_3ss/MAFcPTc_3ss/1/tl.jpg"
     ]
   },
-  // Other products would be defined similarly
 ];
 
 // Sample related products
@@ -52,17 +51,17 @@ const relatedProducts = [
   {
     id: "porang",
     name: "Porang",
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07"
+    image: "https://media-public.canva.com/oPf3A/MAGTaHoPf3A/1/tl.jpg"
   },
   {
     id: "kopra",
     name: "Kopra",
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+    image: "https://media-public.canva.com/O-MjM/MAECayO-MjM/1/tl.jpg"
   },
   {
     id: "kunyit",
     name: "Kunyit Kering",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    image: "https://media-public.canva.com/MADatyHqX8s/1/thumbnail_large-1.jpg"
   }
 ];
 

@@ -28,7 +28,7 @@ const AboutSection = () => {
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-28 h-28 md:w-36 md:h-36 bg-gold/30 rounded-full z-0"></div>
               <img 
-                src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07" 
+                src="https://media-public.canva.com/4qFvQ/MADy3B4qFvQ/1/tl.jpg"
                 alt="Tim CV. Manalagi melakukan proses quality control" 
                 className="w-full h-auto rounded-lg shadow-xl relative z-10"
               />

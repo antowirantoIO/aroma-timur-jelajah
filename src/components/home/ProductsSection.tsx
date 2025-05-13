@@ -9,25 +9,25 @@ const products = [
     id: "kemiri",
     name: "Kemiri",
     description: "Kemiri Pilihan: Inti Kenikmatan, Kilau Alami untuk Karya Kuliner dan Kecantikan Anda.",
-    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027"
+    image: "https://media-public.canva.com/o5pBU/MAFdWzo5pBU/1/tl.jpg"
   },
   {
     id: "asam",
     name: "Asam Jawa",
     description: "Asam Jawa Murni: Sentuhan Asam Memikat yang Mengangkat Setiap Cita Rasa Masakan.",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    image: "https://media-public.canva.com/JfZcI/MADza5JfZcI/1/tl.jpg"
   },
   {
     id: "kopra",
     name: "Kopra",
     description: "Kopra Premium: Kelapa Terseleksi untuk Ekstraksi Minyak Berkualitas Tinggi.",
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+    image: "https://media-public.canva.com/O-MjM/MAECayO-MjM/1/tl.jpg"
   },
   {
     id: "porang",
     name: "Porang",
     description: "Porang Unggul: Umbi Terstandarisasi untuk Industri Pangan dan Suplemen.",
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07"
+    image: "https://media-public.canva.com/oPf3A/MAGTaHoPf3A/1/tl.jpg"
   }
 ];
 

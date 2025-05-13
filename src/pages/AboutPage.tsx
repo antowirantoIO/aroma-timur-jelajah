@@ -36,7 +36,7 @@ const AboutPage = () => {
             <div>
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1472396961693-142e6e269027"
+                  src="https://media-public.canva.com/sO7vE/MAGZNAsO7vE/1/tl.jpg"
                   alt="Perjalanan CV. Manalagi"
                   className="rounded-lg shadow-xl"
                 />
@@ -157,7 +157,7 @@ const AboutPage = () => {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1469474968028-56623f02e42e"
+                src="https://media-public.canva.com/KIh2Q/MAEIqmKIh2Q/1/tl.jpg"
                 alt="Sustainability initiatives"
                 className="rounded-lg shadow-xl"
               />
