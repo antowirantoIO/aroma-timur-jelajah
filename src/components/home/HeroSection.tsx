@@ -33,8 +33,11 @@ const HeroSection = () => {
         <div className="container-custom text-center md:text-left">
           <div className="max-w-3xl mx-auto md:mx-0 animate-fade-in">
             <h1 className="text-white font-playfair text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              CV. MANALAGI: Di Mana Setiap Butir Rempah Menceritakan Kisah Keaslian Nusa Tenggara Timur.
+              CV. MANALAGI BAROKAH MAKMUR ABADI
             </h1>
+            <h2 className="text-beige/90 text-xl md:text-2xl font-opensans leading-relaxed mb-5">
+              Di Mana Setiap Butir Rempah Menceritakan Kisah Keaslian Nusa Tenggara Timur.
+            </h2>
             <p className="text-beige/90 text-xl md:text-2xl font-opensans leading-relaxed mb-10">
               Dari jantung agrikultur Indonesia, kami persembahkan Kemiri, Asam, Kopra, dan mahakarya alam lainnya – dipanen dengan hati, diproses dengan presisi, untuk kualitas tanpa kompromi.
             </p>

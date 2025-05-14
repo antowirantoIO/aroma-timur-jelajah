@@ -51,7 +51,7 @@ const AboutPage = () => {
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="heading-lg mb-6">
-              <span className="forest-border pb-2">Nakhoda Kami:</span> Visi & Misi Perusahaan
+              Visi & Misi Perusahaan
             </h2>
           </div>
           
@@ -87,50 +87,47 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-      
+
       <section className="py-20 bg-forestgreen text-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="heading-lg text-white mb-6">
-                <span className="border-b-2 border-gold pb-2">Komitmen Kami</span> pada Bumi & Masyarakat
+                <span className="border-b-2 border-gold pb-2">Komitmen Kami</span> dalam Pembelian dan Distribusi Barang
               </h2>
-              <h3 className="text-xl text-gold mb-6 font-playfair">
-                Bertumbuh Bersama: Jejak Positif Kami untuk Alam dan Komunitas.
-              </h3>
               <p className="text-white/80 mb-6">
-                Di CV. Manalagi, kami memahami bahwa kesuksesan bisnis tidak pernah dapat dipisahkan dari kesejahteraan lingkungan dan masyarakat. Itulah mengapa kami berkomitmen pada:
+                Di CV. Manalagi, kami berfokus pada proses pembelian dan sortir barang yang cermat sebelum dikemas untuk penjualan. Kami memahami pentingnya menyediakan produk berkualitas yang tepat untuk pasar grosir. Oleh karena itu, kami berkomitmen untuk:
               </p>
               <ul className="space-y-4 text-white/80">
                 <li className="flex">
                   <div className="w-6 h-6 rounded-full bg-gold mr-3 flex-shrink-0 flex items-center justify-center">✓</div>
-                  <span>Praktik pertanian berkelanjutan yang meminimalkan dampak lingkungan</span>
+                  <span>Seleksi barang yang teliti untuk memastikan kualitas terbaik</span>
                 </li>
                 <li className="flex">
                   <div className="w-6 h-6 rounded-full bg-gold mr-3 flex-shrink-0 flex items-center justify-center">✓</div>
-                  <span>Pemberdayaan ekonomi petani lokal melalui harga yang adil</span>
+                  <span>Proses sortir barang sebelum pengemasan untuk efisiensi penjualan</span>
                 </li>
                 <li className="flex">
                   <div className="w-6 h-6 rounded-full bg-gold mr-3 flex-shrink-0 flex items-center justify-center">✓</div>
-                  <span>Pengurangan limbah dan penggunaan energi dalam rantai produksi</span>
+                  <span>Menawarkan produk dengan harga kompetitif untuk pasar grosir</span>
                 </li>
                 <li className="flex">
                   <div className="w-6 h-6 rounded-full bg-gold mr-3 flex-shrink-0 flex items-center justify-center">✓</div>
-                  <span>Program edukasi tentang praktik pertanian terbaik</span>
+                  <span>Pengiriman tepat waktu untuk memenuhi kebutuhan pelanggan grosir</span>
                 </li>
               </ul>
             </div>
             <div>
               <img
-                src="https://media-public.canva.com/KIh2Q/MAEIqmKIh2Q/1/tl.jpg"
-                alt="Sustainability initiatives"
-                className="rounded-lg shadow-xl"
+                  src="https://media-public.canva.com/KIh2Q/MAEIqmKIh2Q/1/tl.jpg"
+                  alt="Business Distribution"
+                  className="rounded-lg shadow-xl"
               />
             </div>
           </div>
         </div>
       </section>
-      
+
       <section className="py-16 bg-terracotta text-white text-center">
         <div className="container-custom">
           <h2 className="heading-md text-white mb-6">

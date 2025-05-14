@@ -27,7 +27,7 @@ const products = [
     id: "porang",
     name: "Porang",
     description: "Porang Unggul: Umbi Terstandarisasi untuk Industri Pangan dan Suplemen.",
-    image: "https://media-public.canva.com/oPf3A/MAGTaHoPf3A/1/tl.jpg"
+    image: "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/11/04045014/Mengenal-Tanaman-Porang-Bahan-Baku-Pembuatan-Shirataki.jpg.webp"
   }
 ];
 
@@ -39,7 +39,7 @@ const ProductsSection = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="heading-lg mb-4">
-            <span className="forest-border pb-2">Permata dari Timur:</span> Produk Unggulan Kami
+            Produk Unggulan Kami
           </h2>
           <p className="paragraph max-w-3xl mx-auto">
             Temukan Esensi Alam dalam Setiap Produk Pilihan yang kami tawarkan. Kualitas premium dari jantung Nusa Tenggara Timur.

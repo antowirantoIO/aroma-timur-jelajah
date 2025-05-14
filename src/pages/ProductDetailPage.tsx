@@ -51,7 +51,7 @@ const relatedProducts = [
   {
     id: "porang",
     name: "Porang",
-    image: "https://media-public.canva.com/oPf3A/MAGTaHoPf3A/1/tl.jpg"
+    image: "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/11/04045014/Mengenal-Tanaman-Porang-Bahan-Baku-Pembuatan-Shirataki.jpg.webp"
   },
   {
     id: "kopra",
@@ -61,7 +61,7 @@ const relatedProducts = [
   {
     id: "kunyit",
     name: "Kunyit Kering",
-    image: "https://media-public.canva.com/MADatyHqX8s/1/thumbnail_large-1.jpg"
+    image: "https://media-public.canva.com/RaNbk/MAFkTmRaNbk/1/tl.jpg"
   }
 ];
 

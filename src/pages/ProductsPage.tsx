@@ -31,14 +31,14 @@ const products = [
     name: "Porang",
     category: "Bahan Baku",
     description: "Porang Unggul: Umbi Terstandarisasi untuk Industri Pangan dan Suplemen.",
-    image: "https://media-public.canva.com/oPf3A/MAGTaHoPf3A/1/tl.jpg"
+    image: "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/11/04045014/Mengenal-Tanaman-Porang-Bahan-Baku-Pembuatan-Shirataki.jpg.webp"
   },
   {
     id: "kunyit",
     name: "Kunyit Kering",
     category: "Rempah Dasar",
     description: "Kunyit Kering Premium: Warna Kuning Cerah, Aroma Kuat, untuk Kebutuhan Masakan dan Kesehatan.",
-    image: "https://media-public.canva.com/MADatyHqX8s/1/thumbnail_large-1.jpg"
+    image: "https://media-public.canva.com/RaNbk/MAFkTmRaNbk/1/tl.jpg"
   },
   {
     id: "kacang",
@@ -48,8 +48,6 @@ const products = [
     image: "https://media-public.canva.com/MADW_jrdwW4/1/thumbnail_large-1.jpg"
   }
 ];
-
-const categories = ["Semua", "Rempah Dasar", "Perasa", "Bahan Baku", "Olahan"];
 
 const ProductsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState("Semua");
@@ -87,22 +85,6 @@ const ProductsPage = () => {
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
               <Search className="absolute left-3 top-2.5 h-5 w-5 text-warmgrey" />
-            </div>
-            
-            <div className="flex flex-wrap gap-3">
-              {categories.map(category => (
-                <button
-                  key={category}
-                  onClick={() => setSelectedCategory(category)}
-                  className={`px-4 py-2 rounded-md ${
-                    selectedCategory === category
-                      ? 'bg-terracotta text-white'
-                      : 'bg-white text-deepbrown hover:bg-warmgrey/10'
-                  } transition-colors`}
-                >
-                  {category}
-                </button>
-              ))}
             </div>
           </div>
           

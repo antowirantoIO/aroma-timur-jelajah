@@ -31,7 +31,8 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <Link to="/" className="flex items-center">
           <span className={`${!isScrolled ? 'text-terracotta' : ''} font-playfair font-bold text-2xl text-deepbrown`}>
-            CV. <span className="text-terracotta">Manalagi</span>
+            CV. <span className="text-terracotta">MANALAGI BAROKAH MAKMUR
+ABADI</span>
           </span>
         </Link>
         
@@ -56,16 +57,27 @@ const Navbar = () => {
             Produk
           </Link>
           <Link 
-            to="/blog"
-            className={`font-opensans font-medium hover:text-terracotta transition-colors ${(location.pathname.includes('/blog') || !isScrolled) ? 'text-terracotta' : 'text-deepbrown'}`}
-          >
-            Blog
-          </Link>
-          <Link 
             to="/contact"
-            className="btn-outline py-2 px-4 ml-2"
+            className="btn-outline py-2 px-4 ml-2 flex gap-2"
           >
-            Hubungi Kami
+              <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={24}
+                  height={24}
+                  fill="none"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  className="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp"
+              >
+                  <path stroke="none" d="M0 0h24v24H0z" />
+                  <path d="m3 21 1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" />
+                  <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1" />
+              </svg>
+              <span>
+                  Hubungi Kami
+              </span>
           </Link>
         </div>
         
@@ -99,12 +111,6 @@ const Navbar = () => {
               className={`font-opensans font-medium py-2 hover:text-terracotta transition-colors ${location.pathname.includes('/products') ? 'text-terracotta' : 'text-deepbrown'}`}
             >
               Produk
-            </Link>
-            <Link 
-              to="/blog"
-              className={`font-opensans font-medium py-2 hover:text-terracotta transition-colors ${location.pathname.includes('/blog') ? 'text-terracotta' : 'text-deepbrown'}`}
-            >
-              Blog
             </Link>
             <Link 
               to="/contact"

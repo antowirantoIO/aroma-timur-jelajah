@@ -285,38 +285,17 @@ Terima kasih!
                 </h3>
                 <ul className="space-y-2">
                   <li className="flex justify-between">
-                  <span className="font-medium">Senin - Jumat</span>
-                    <span>08:00 - 17:00 WITA</span>
+                  <span className="font-medium">Senin - Sabtu</span>
+                    <span>09:00 - 18:00 WITA</span>
                   </li>
                   <li className="flex justify-between">
-                    <span className="font-medium">Sabtu</span>
-                    <span>08:00 - 14:00 WITA</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="font-medium">Minggu & Hari Libur</span>
-                    <span>Tutup</span>
+                    <span className="font-medium">Minggu</span>
+                    <span>13:00 - 17:30 WITA</span>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      
-      <section className="py-16 bg-forestgreen text-white">
-        <div className="container-custom text-center">
-          <h2 className="heading-md text-white mb-6">
-            Tertarik Bermitra Dengan Kami?
-          </h2>
-          <p className="text-white/80 max-w-2xl mx-auto mb-8">
-            CV. Manalagi Barokah Makmur Abadi selalu terbuka untuk kemitraan strategis yang saling menguntungkan dengan berbagai pihak, mulai dari petani lokal hingga distributor internasional.
-          </p>
-          <a 
-            href="https://wa.me/+6281223378900"
-            className="bg-white text-forestgreen hover:bg-white/90 transition-colors font-semibold px-8 py-4 rounded-md shadow-md hover:shadow-lg tracking-wide uppercase inline-block"
-          >
-            HUBUNGI KAMI SEKARANG
-          </a>
         </div>
       </section>
     </div>
