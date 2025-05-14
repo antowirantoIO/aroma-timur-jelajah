@@ -10,13 +10,13 @@ const products = [
     category: "Rempah Dasar",
     tagline: "Kilau Emas untuk Dapur dan Industri Anda",
     description: "Kemiri Pilihan: Inti Kenikmatan, Kilau Alami untuk Karya Kuliner dan Kecantikan Anda.",
-    fullDescription: "Dipanen dari pohon kemiri pilihan yang tumbuh subur di tanah vulkanis Nusa Tenggara Timur, setiap biji menyimpan kekayaan nutrisi dan tradisi. Kemiri kami telah melalui proses seleksi yang ketat untuk memastikan hanya butiran berkualitas tertinggi yang sampai ke tangan Anda.",
+    fullDescription: "Dipanen dari pohon kemiri pilihan yang tumbuh subur di tanah vulkanis Nusa Tenggara Timur, setiap biji menyimpan kekayaan nutrisi dan tradisi. Kemiri kami telah melalui proses seleksi yang ketat untuk memastikan hanya butiran berkualitas tertinggi yang sampai ke tangan Anda. Dimanfaatkan sebagai sumber minyak dan rempah-rempah esensial dalam berbagai masakan.", // Menambahkan info dari PDF
     aroma: "Kacang-kacangan lembut dengan sentuhan earthy",
     rasa: "Gurih, sedikit manis saat dipanggang",
-    uses: ["Bumbu masakan tradisional", "Bahan dasar minyak", "Industri kosmetik dan kecantikan"],
-    specifications: ["Ukuran: 1.5-2cm", "Kadar air: <5%", "Metode pengolahan: Sun-dried", "Kadar minyak: 60-65%"],
-    storage: "Simpan di tempat kering dan sejuk. Hindari paparan sinar matahari langsung. Tutup rapat kemasan setelah dibuka.",
-    packaging: ["Kemasan retail 500g", "Kemasan bulk 5kg dan 25kg", "Kemasan custom sesuai kebutuhan"],
+    uses: ["Bumbu masakan tradisional (pengental dan penambah rasa)", "Bahan dasar minyak kemiri (untuk rambut dan kulit)", "Industri kosmetik dan kecantikan alami", "Bahan dalam pembuatan lilin tradisional"],
+    specifications: ["Ukuran: Diameter rata-rata 1.5-2.5cm", "Kadar air: <5%", "Metode pengolahan: Pengeringan matahari (Sun-dried)", "Kadar minyak: Sekitar 60-65%", "Kebersihan: Sortir manual untuk kualitas terbaik"],
+    storage: "Simpan di tempat kering, sejuk, dan terhindar dari paparan sinar matahari langsung. Gunakan wadah kedap udara untuk menjaga kesegaran lebih lama.",
+    packaging: ["Kemasan retail: 250g, 500g, 1kg", "Kemasan bulk: Karung 5kg, 25kg, 50kg", "Kemasan custom sesuai permintaan pelanggan"],
     image: "https://media-public.canva.com/o5pBU/MAFdWzo5pBU/1/tl.jpg",
     gallery: [
       "https://media-public.canva.com/o5pBU/MAFdWzo5pBU/1/tl.jpg",
@@ -28,22 +28,102 @@ const products = [
     id: "asam",
     name: "Asam Jawa",
     category: "Perasa",
-    tagline: "Sentuhan Asam yang Memikat",
+    tagline: "Sentuhan Asam yang Memikat dan Menyegarkan",
     description: "Asam Jawa Murni: Sentuhan Asam Memikat yang Mengangkat Setiap Cita Rasa Masakan.",
-    fullDescription: "Asam Jawa dari CV. Manalagi dipanen pada tingkat kematangan optimal untuk menghasilkan cita rasa asam yang khas namun tetap seimbang. Proses pengolahan kami memastikan kemurnian dan kebersihan produk tanpa mengurangi profil rasanya yang kaya.",
-    aroma: "Asam segar dengan sentuhan manis",
-    rasa: "Asam tajam, sedikit manis, dengan kompleksitas yang khas",
-    uses: ["Bumbu dasar masakan tradisional", "Saus dan marinasi", "Minuman tradisional", "Jamu dan pengobatan"],
-    specifications: ["Bentuk: Pasta/Pulp", "Kadar air: 15-20%", "Keasaman: Medium-high", "Bebas biji dan kotoran"],
-    storage: "Simpan di tempat kering dan sejuk. Untuk daya simpan lebih lama, simpan di kulkas setelah kemasan dibuka.",
-    packaging: ["Kemasan retail 250g dan 500g", "Kemasan bulk 5kg", "Kemasan vacuum-sealed 1kg"],
+    fullDescription: "Asam Jawa dari CV. Manalagi dipanen pada tingkat kematangan optimal untuk menghasilkan cita rasa asam yang khas namun tetap seimbang. Buah dengan rasa segar ini digunakan secara luas dalam masakan di Indonesia ataupun sebagai campuran pada jamu tradisional. Proses pengolahan kami memastikan kemurnian dan kebersihan produk tanpa mengurangi profil rasanya yang kaya.", // Menambahkan info dari PDF
+    aroma: "Asam segar dengan hint manis buah-buahan",
+    rasa: "Asam tajam menyegarkan, sedikit manis, dengan kompleksitas rasa yang khas",
+    uses: ["Bumbu dasar masakan tradisional (sayur asam, kuah ikan, sambal)", "Bahan pembuatan saus, chutney, dan marinasi", "Bahan utama minuman tradisional penyegar (es asam, gula asam)", "Komponen penting dalam jamu dan pengobatan herbal"],
+    specifications: ["Bentuk: Daging buah tanpa biji (pasta/pulp) / Utuh dengan biji (sesuai permintaan)", "Kadar air: Sekitar 15-25% (untuk pasta)", "Tingkat keasaman (pH): Medium-high", "Proses: Dipisahkan dari biji dan serat kasar (untuk pasta)"],
+    storage: "Simpan di tempat kering dan sejuk. Untuk pasta asam, simpan dalam wadah kedap udara di kulkas setelah kemasan dibuka untuk memperpanjang masa simpan.",
+    packaging: ["Kemasan retail (pasta/pulp): 250g, 500g", "Kemasan bulk (pasta/pulp atau utuh): 1kg, 5kg, atau sesuai permintaan", "Kemasan vacuum-sealed untuk menjaga kesegaran"],
     image: "https://media-public.canva.com/JfZcI/MADza5JfZcI/1/tl.jpg",
     gallery: [
       "https://media-public.canva.com/JfZcI/MADza5JfZcI/1/tl.jpg",
-      "https://media-public.canva.com/JfZcI/MADza5JfZcI/1/tl.jpg",
-      "https://media-public.canva.com/c_3ss/MAFcPTc_3ss/1/tl.jpg"
+      "https://media-public.canva.com/c_3ss/MAFcPTc_3ss/1/tl.jpg", // Mengganti duplikat dengan gambar lain dari contoh
+      "https://media-public.canva.com/MADL2kRgFSc/1/thumbnail_large.jpg" // Menambahkan gambar variasi
     ]
   },
+  {
+    id: "kopra",
+    name: "Kopra",
+    category: "Bahan Baku",
+    tagline: "Daging Kelapa Kering Kualitas Unggul untuk Industri Minyak",
+    description: "Kopra Premium: Kelapa Terseleksi untuk Ekstraksi Minyak Berkualitas Tinggi.",
+    fullDescription: "Kopra adalah daging buah kelapa yang dikeringkan secara optimal. Sebagai produk kelapa yang sangat penting, kopra dari CV. Manalagi merupakan bahan baku pembuatan minyak kelapa berkualitas tinggi dan berbagai produk turunan lainnya. Kami memastikan proses pengeringan yang tepat untuk menghasilkan kopra dengan kadar air rendah dan kualitas terbaik.", // Menggunakan info dari PDF
+    aroma: "Khas kelapa kering, sedikit manis dan gurih",
+    rasa: "Rasa kelapa yang intens dan gurih (tergantung proses pengeringan)",
+    uses: ["Bahan baku utama industri minyak kelapa", "Bahan pembuatan margarin, sabun, dan kosmetik", "Industri pakan ternak (sebagai bungkil kopra setelah ekstraksi minyak)", "Bahan dalam industri oleokimia"],
+    specifications: ["Jenis: Kopra putih / Kopra asalan (tergantung permintaan)", "Kadar air: < 6%", "Kadar minyak: > 60%", "Metode pengeringan: Penjemuran matahari atau pengasapan terkontrol"],
+    storage: "Simpan di gudang yang kering, bersih, dan memiliki sirkulasi udara yang baik. Hindari dari hama, kelembaban, dan kontaminasi.",
+    packaging: ["Karung goni atau plastik PP: 50kg, 60kg", "Pengiriman bulk curah untuk volume besar", "Kemasan custom sesuai kebutuhan industri"],
+    image: "https://media-public.canva.com/O-MjM/MAECayO-MjM/1/tl.jpg",
+    gallery: [
+      "https://media-public.canva.com/MACmteVhvak/1/thumbnail_large-1.jpg",
+      "https://media-public.canva.com/sk0sw/MAECa7sk0sw/1/tl.jpg", // Placeholder gambar kopra lain
+      "https://media-public.canva.com/MADCBQh7hA4/1/thumbnail_large-1.jpg"  // Placeholder gambar kopra lain
+    ]
+  },
+  {
+    id: "porang",
+    name: "Porang",
+    category: "Bahan Baku",
+    tagline: "Umbi Multifungsi, Solusi Inovatif untuk Industri Pangan dan Lainnya",
+    description: "Porang Unggul: Umbi Terstandarisasi untuk Industri Pangan dan Suplemen.",
+    fullDescription: "Porang (Amorphophallus muelleri) dari CV. Manalagi adalah umbi berkualitas tinggi yang kaya akan glukomanan. Kami menyediakan porang dalam bentuk chips kering atau tepung yang telah diproses sesuai standar. Porang dijadikan sebagai bahan baku serbaguna dalam industri seperti kertas, cat, serta sebagai bahan pengikat penting dalam industri makanan (seperti mie shirataki dan konnyaku) dan kosmetik.", // Menggunakan info dari PDF
+    aroma: "Netral hingga sedikit berbau tanah (chips kering sebelum diolah)",
+    rasa: "Netral (setelah diolah menjadi tepung atau produk akhir)",
+    uses: ["Industri pangan (tepung konjac/glukomanan, mie shirataki, jeli konnyaku, pengental makanan)", "Industri kosmetik (bahan pengikat, pelembab, masker)", "Industri farmasi dan suplemen kesehatan (sumber serat, manajemen berat badan)", "Bahan baku industri kertas, cat, dan perekat ramah lingkungan"],
+    specifications: ["Bentuk: Chips Kering / Tepung Halus", "Kadar Glukomanan: Tinggi (sesuai grade, misal >80%)", "Kadar Air (chips): <10%", "Warna: Putih bersih hingga krem (untuk tepung berkualitas)"],
+    storage: "Simpan chips atau tepung porang dalam wadah kedap udara di tempat yang kering, sejuk, dan terhindar dari cahaya. Jaga dari kelembaban untuk mencegah penggumpalan (tepung) atau jamur (chips).",
+    packaging: ["Karung plastik PP dengan inner liner: 25kg atau 50kg (untuk chips/tepung)", "Kemasan custom untuk kebutuhan industri spesifik"],
+    image: "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/11/04045014/Mengenal-Tanaman-Porang-Bahan-Baku-Pembuatan-Shirataki.jpg.webp",
+    gallery: [
+      "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/11/04045014/Mengenal-Tanaman-Porang-Bahan-Baku-Pembuatan-Shirataki.jpg.webp",
+      "https://media-public.canva.com/wcULU/MAFebewcULU/1/tl.jpg", // Placeholder gambar porang lain
+      "https://media-public.canva.com/rIwSM/MAFebfrIwSM/1/tl.jpg"  // Placeholder gambar porang lain
+    ]
+  },
+  {
+    id: "kunyit",
+    name: "Kunyit Kering",
+    category: "Rempah Dasar",
+    tagline: "Pesona Emas Alami untuk Kekayaan Rasa dan Khasiat Optimal",
+    description: "Kunyit Kering Premium: Warna Kuning Cerah, Aroma Kuat, untuk Kebutuhan Masakan dan Kesehatan.",
+    fullDescription: "Kunyit (Curcuma longa) termasuk salah satu tanaman rempah-rempah dan obat asli alami yang berasal dari wilayah Asia Tenggara. CV. Manalagi menyediakan kunyit kering (irisan atau utuh) kualitas premium dengan warna kuning-oranye intens dan aroma khas yang kuat. Kunyit kering kami banyak digunakan dalam industri jamu tradisional, sebagai bumbu esensial dalam berbagai masakan, dan sebagai pewarna alami.", // Menggunakan info dari PDF
+    aroma: "Khas kunyit yang hangat, sedikit pedas, dengan nuansa earthy dan musky",
+    rasa: "Hangat, sedikit pahit, dengan aftertaste pedas dan earthy yang khas",
+    uses: ["Bumbu utama masakan (gulai, kari, soto, nasi kuning, pepes)", "Bahan utama industri jamu tradisional dan suplemen herbal (anti-inflamasi, antioksidan)", "Pewarna alami untuk makanan, minuman, dan tekstil", "Komponen dalam produk kosmetik dan perawatan kulit tradisional"],
+    specifications: ["Bentuk: Irisan Kering (Slices) / Batangan Utuh (Fingers)", "Kadar Kurkumin: Tinggi (sesuai standar kualitas ekspor)", "Kadar Air: <10-12%", "Warna: Kuning-oranye cerah dan merata"],
+    storage: "Simpan dalam wadah kedap udara, di tempat yang sejuk, kering, dan gelap untuk menjaga warna, aroma, dan kandungan kurkumin.",
+    packaging: ["Kemasan retail: 100g, 250g, 500g", "Kemasan bulk: Karung 1kg, 5kg, 25kg", "Kemasan disesuaikan dengan permintaan pelanggan"],
+    image: "https://media-public.canva.com/RaNbk/MAFkTmRaNbk/1/tl.jpg",
+    gallery: [
+      "https://media-public.canva.com/RaNbk/MAFkTmRaNbk/1/tl.jpg",
+      "https://media-public.canva.com/ozHak/MAD-BzozHak/1/tl.jpg", // Placeholder gambar kunyit kering lain
+      "https://media-public.canva.com/MADBumufWps/1/thumbnail_large-1.jpg"  // Placeholder gambar kunyit kering lain
+    ]
+  },
+  {
+    id: "kacang",
+    name: "Kacang Mete",
+    category: "Olahan", // Sesuai input Anda, bisa juga 'Kacang-kacangan'
+    tagline: "Kerenyahan Premium dengan Kelezatan Khas Nusa Tenggara Timur",
+    description: "Kacang Mete Pilihan: Tekstur Renyah dengan Cita Rasa Khas NTT.",
+    fullDescription: "Nikmati kelezatan premium Kacang Mete pilihan dari Nusa Tenggara Timur, yang terkenal akan kualitas dan cita rasanya yang unik. Dipanen dari jambu monyet pilihan dan diproses secara teliti untuk menghasilkan kacang mete utuh dengan tekstur renyah dan rasa gurih-manis alami. Cocok sebagai camilan sehat bergizi, bahan premium untuk industri kue dan cokelat, atau sebagai taburan mewah pada berbagai hidangan.",
+    aroma: "Khas kacang mete, sedikit manis dan buttery, semakin kuat saat dipanggang",
+    rasa: "Gurih, sedikit manis alami, dengan tekstur renyah namun tetap creamy saat dikunyah",
+    uses: ["Camilan sehat dan bergizi (mentah, panggang, atau goreng)", "Bahan baku industri makanan (kue kering, cokelat, selai kacang mete, granola)", "Taburan untuk salad, hidangan utama, dan dessert", "Sumber protein nabati, lemak sehat, dan mineral penting"],
+    specifications: ["Grade Kualitas: Utuh (misal WW240, WW320, WW450) / Belah (Splits, Butts)", "Proses: Mentah (Raw) / Panggang (Roasted) / Goreng (Fried) - sesuai permintaan", "Kadar Air: <5% (untuk mete kering/panggang)", "Ukuran: Sesuai standar grading internasional"],
+    storage: "Simpan dalam wadah kedap udara di tempat yang sejuk, kering, dan terhindar dari sinar matahari. Untuk mete mentah, penyimpanan di kulkas dapat memperpanjang kesegaran. Mete panggang sebaiknya dikonsumsi dalam beberapa minggu untuk kerenyahan maksimal.",
+    packaging: ["Kemasan retail vacuum-packed: 250g, 500g, 1kg", "Kemasan bulk dalam karton atau plastik besar dengan inner liner: 5kg, 10kg, 22.68kg (50lbs)", "Kemasan toples atau pouch sesuai permintaan"],
+    image: "https://media-public.canva.com/MADW_jrdwW4/1/thumbnail_large-1.jpg",
+    gallery: [
+      "https://media-public.canva.com/MADW_jrdwW4/1/thumbnail_large-1.jpg",
+      "https://media-public.canva.com/MADAIytxf0c/1/thumbnail_large-1.jpg", // Placeholder gambar kacang mete lain
+      "https://media-public.canva.com/MADE78mOoTs/1/thumbnail_large-1.jpg"  // Placeholder gambar kacang mete lain
+    ]
+  }
 ];
 
 // Sample related products
