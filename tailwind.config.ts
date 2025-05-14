@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -62,14 +63,13 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Grounded Freshness color palette
-				forestgreen: '#548235',     // Primary Green
-				mintgreen: '#99D98C',       // Secondary Bright Green
-				offwhite: '#FEFDF6',        // Primary Neutral
-				lightgrey: '#E8E8E8',       // Secondary Neutral
+				// Grounded Freshness color palette - updated with precise specifications
+				forestgreen: '#548235',     // Primary/Dominant Green 
+				offwhite: '#FEFDF6',        // Primary Light Neutral
+				lightgrey: '#EAEAEA',       // Secondary Light Neutral
 				mutedgold: '#D4AF37',       // Warm Accent (Gold)
 				softpeach: '#FFDAB9',       // Warm Accent (Peach)
-				charcoal: '#333333',        // Primary Text Color
+				charcoal: '#333333',        // Primary Text Color for light backgrounds
 				darkslate: '#2F4F4F',       // Alternative Text Color
 				// Keep the existing custom color palette
 				terracotta: '#C35A38',

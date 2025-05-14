@@ -19,8 +19,8 @@
     --primary: 96 43% 36%;
     --primary-foreground: 60 30% 99%;
 
-    --secondary: 108 55% 70%;
-    --secondary-foreground: 215 14% 20%;
+    --secondary: 96 43% 36%; /* Aligned with primary to maintain single green tone */
+    --secondary-foreground: 60 30% 99%;
 
     --muted: 60 10% 92%;
     --muted-foreground: 215 14% 46%;
@@ -57,7 +57,7 @@
   }
   
   .btn-secondary {
-    @apply bg-mintgreen hover:bg-mintgreen/90 text-darkslate font-semibold px-6 py-3 rounded-md transition-all shadow-md hover:shadow-lg tracking-wide uppercase;
+    @apply bg-forestgreen hover:bg-forestgreen/90 text-white font-semibold px-6 py-3 rounded-md transition-all shadow-md hover:shadow-lg tracking-wide uppercase;
   }
   
   .btn-outline {

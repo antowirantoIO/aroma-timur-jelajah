@@ -27,13 +27,13 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section className="py-20 md:py-28 bg-forestgreen/90 text-white">
+    <section className="py-20 md:py-28 bg-forestgreen text-offwhite">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="heading-lg mb-4 text-offwhite">
             <span className="border-b-2 border-mutedgold pb-2">Suara Mitra Kami</span>
           </h2>
-          <p className="text-offwhite/80 max-w-3xl mx-auto paragraph">
+          <p className="text-offwhite/90 max-w-3xl mx-auto paragraph">
             Kisah Sukses Bersama CV. Manalagi
           </p>
         </div>
@@ -52,10 +52,10 @@ const TestimonialsSection = () => {
                   />
                 ))}
               </div>
-              <p className="text-offwhite/90 italic mb-6">"{testimonial.content}"</p>
+              <p className="text-offwhite italic mb-6">"{testimonial.content}"</p>
               <div>
                 <h4 className="font-playfair font-bold text-offwhite">{testimonial.author}</h4>
-                <p className="text-offwhite/70 text-sm">{testimonial.position}, {testimonial.company}</p>
+                <p className="text-offwhite/80 text-sm">{testimonial.position}, {testimonial.company}</p>
               </div>
             </div>
           ))}

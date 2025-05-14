@@ -35,7 +35,7 @@ const ProductsSection = () => {
   const [activeProduct, setActiveProduct] = useState(0);
   
   return (
-    <section className="bg-lightgrey/30 py-20 md:py-28">
+    <section className="bg-offwhite py-20 md:py-28">
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="heading-lg mb-4 text-forestgreen">
