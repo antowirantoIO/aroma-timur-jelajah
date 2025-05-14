@@ -35,13 +35,13 @@ const ProductsSection = () => {
   const [activeProduct, setActiveProduct] = useState(0);
   
   return (
-    <section className="bg-warmgrey/10 py-20 md:py-28">
+    <section className="bg-lightgrey/30 py-20 md:py-28">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="heading-lg mb-4">
+          <h2 className="heading-lg mb-4 text-forestgreen">
             Produk Unggulan Kami
           </h2>
-          <p className="paragraph max-w-3xl mx-auto">
+          <p className="paragraph max-w-3xl mx-auto text-charcoal/80">
             Temukan Esensi Alam dalam Setiap Produk Pilihan yang kami tawarkan. Kualitas premium dari jantung Nusa Tenggara Timur.
           </p>
         </div>
@@ -63,14 +63,14 @@ const ProductsSection = () => {
                           alt={product.name} 
                           className="w-full h-full object-cover"
                         />
-                        <div className="absolute inset-0 bg-deepbrown/20 hover:bg-deepbrown/30 transition-colors"></div>
+                        <div className="absolute inset-0 bg-forestgreen/20 hover:bg-forestgreen/30 transition-colors"></div>
                       </div>
                       <div className="p-8 md:p-10 flex flex-col justify-center">
-                        <h3 className="heading-md text-terracotta mb-4">{product.name}</h3>
-                        <p className="paragraph mb-6">{product.description}</p>
+                        <h3 className="heading-md text-forestgreen mb-4">{product.name}</h3>
+                        <p className="paragraph mb-6 text-charcoal/80">{product.description}</p>
                         <Link 
                           to={`/products/${product.id}`}
-                          className="text-deepbrown font-medium hover:text-terracotta transition-colors inline-flex items-center group"
+                          className="text-forestgreen font-medium hover:text-forestgreen/80 transition-colors inline-flex items-center group"
                         >
                           Pelajari Lebih Lanjut
                           <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -89,7 +89,7 @@ const ProductsSection = () => {
               <button
                 key={index}
                 className={`w-3 h-3 rounded-full transition-colors ${
-                  activeProduct === index ? 'bg-terracotta' : 'bg-warmgrey/40 hover:bg-warmgrey/60'
+                  activeProduct === index ? 'bg-forestgreen' : 'bg-lightgrey hover:bg-lightgrey/80'
                 }`}
                 onClick={() => setActiveProduct(index)}
                 aria-label={`View product ${index + 1}`}

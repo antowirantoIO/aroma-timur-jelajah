@@ -11,10 +11,10 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative h-screen w-full bg-deepbrown overflow-hidden">
+    <section className="relative h-screen w-full bg-forestgreen overflow-hidden">
       {/* Video Background with Overlay */}
       <div className="absolute inset-0 w-full h-full">
-        <div className="absolute inset-0 bg-gradient-to-b from-deepbrown/70 to-deepbrown/80 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-forestgreen/70 to-forestgreen/80 z-10"></div>
         <video 
           className="absolute inset-0 w-full h-full object-cover"
           autoPlay 
@@ -32,18 +32,18 @@ const HeroSection = () => {
       <div className="relative z-20 h-full w-full flex items-center">
         <div className="container-custom text-center md:text-left">
           <div className="max-w-3xl mx-auto md:mx-0 animate-fade-in">
-            <h1 className="text-white font-playfair text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <h1 className="text-offwhite font-playfair text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               CV. MANALAGI BAROKAH MAKMUR ABADI
             </h1>
-            <h2 className="text-beige/90 text-xl md:text-2xl font-opensans leading-relaxed mb-5">
+            <h2 className="text-offwhite/90 text-xl md:text-2xl font-opensans leading-relaxed mb-5">
               Di Mana Setiap Butir Rempah Menceritakan Kisah Keaslian Nusa Tenggara Timur.
             </h2>
-            <p className="text-beige/90 text-xl md:text-2xl font-opensans leading-relaxed mb-10">
+            <p className="text-offwhite/90 text-xl md:text-2xl font-opensans leading-relaxed mb-10">
               Dari jantung agrikultur Indonesia, kami persembahkan Kemiri, Asam, Kopra, dan mahakarya alam lainnya – dipanen dengan hati, diproses dengan presisi, untuk kualitas tanpa kompromi.
             </p>
             <Link 
               to="/products" 
-              className="btn-primary inline-block text-center shadow-lg hover:shadow-xl"
+              className="bg-offwhite text-forestgreen hover:bg-offwhite/90 transition-colors font-semibold px-8 py-4 rounded-md shadow-md hover:shadow-lg tracking-wide uppercase"
             >
               JELAJAHI KOLEKSI KAMI
             </Link>
@@ -53,7 +53,7 @@ const HeroSection = () => {
       
       {/* Scroll Indicator */}
       <button 
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce-subtle z-20"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-offwhite animate-bounce-subtle z-20"
         onClick={scrollToNextSection}
         aria-label="Scroll down"
       >

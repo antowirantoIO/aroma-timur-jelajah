@@ -30,10 +30,10 @@ const TestimonialsSection = () => {
     <section className="py-20 md:py-28 bg-forestgreen/90 text-white">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="heading-lg mb-4 text-white">
-            <span className="border-b-2 border-gold pb-2">Suara Mitra Kami</span>
+          <h2 className="heading-lg mb-4 text-offwhite">
+            <span className="border-b-2 border-mutedgold pb-2">Suara Mitra Kami</span>
           </h2>
-          <p className="text-white/80 max-w-3xl mx-auto paragraph">
+          <p className="text-offwhite/80 max-w-3xl mx-auto paragraph">
             Kisah Sukses Bersama CV. Manalagi
           </p>
         </div>
@@ -48,14 +48,14 @@ const TestimonialsSection = () => {
                 {[...Array(5)].map((_, i) => (
                   <Star 
                     key={i} 
-                    className={`w-5 h-5 ${i < testimonial.rating ? 'text-gold fill-gold' : 'text-warmgrey/40'}`} 
+                    className={`w-5 h-5 ${i < testimonial.rating ? 'text-mutedgold fill-mutedgold' : 'text-lightgrey/40'}`} 
                   />
                 ))}
               </div>
-              <p className="text-white/90 italic mb-6">"{testimonial.content}"</p>
+              <p className="text-offwhite/90 italic mb-6">"{testimonial.content}"</p>
               <div>
-                <h4 className="font-playfair font-bold text-white">{testimonial.author}</h4>
-                <p className="text-white/70 text-sm">{testimonial.position}, {testimonial.company}</p>
+                <h4 className="font-playfair font-bold text-offwhite">{testimonial.author}</h4>
+                <p className="text-offwhite/70 text-sm">{testimonial.position}, {testimonial.company}</p>
               </div>
             </div>
           ))}

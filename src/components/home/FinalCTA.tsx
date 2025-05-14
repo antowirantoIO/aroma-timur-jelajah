@@ -3,20 +3,20 @@ import { Link } from 'react-router-dom';
 
 const FinalCTA = () => {
   return (
-    <section className="bg-terracotta py-20 md:py-24 text-white">
+    <section className="bg-forestgreen py-20 md:py-24 text-white">
       <div className="container-custom text-center">
-        <h2 className="heading-lg text-white mb-6 max-w-3xl mx-auto">
+        <h2 className="heading-lg text-offwhite mb-6 max-w-3xl mx-auto">
           SIAP MENINGKATKAN STANDAR DENGAN REMPAH KELAS DUNIA?
         </h2>
         
-        <p className="text-white/90 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
+        <p className="text-offwhite/90 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
           Diskusikan kebutuhan Anda dengan ahli rempah kami. Mari ciptakan keunggulan bersama CV. Manalagi Barokah Makmur Abadi.
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link 
             to="/contact" 
-            className="bg-white text-terracotta hover:bg-white/90 transition-colors font-semibold px-8 py-4 rounded-md shadow-md hover:shadow-lg tracking-wide uppercase"
+            className="bg-offwhite text-forestgreen hover:bg-offwhite/90 transition-colors font-semibold px-8 py-4 rounded-md shadow-md hover:shadow-lg tracking-wide uppercase"
           >
             HUBUNGI KAMI SEKARANG
           </Link>

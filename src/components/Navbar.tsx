@@ -27,12 +27,11 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-beige/95 backdrop-blur-md shadow-md py-2' : 'bg-transparent py-4'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-offwhite/95 backdrop-blur-md shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container-custom flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <span className={`${!isScrolled ? 'text-terracotta' : ''} font-playfair font-bold text-2xl text-deepbrown`}>
-            CV. <span className="text-terracotta">MANALAGI BAROKAH MAKMUR
-ABADI</span>
+          <span className={`${!isScrolled ? 'text-forestgreen' : ''} font-playfair font-bold text-2xl text-charcoal`}>
+            CV. <span className="text-forestgreen">MANALAGI BAROKAH MAKMUR ABADI</span>
           </span>
         </Link>
         
@@ -40,19 +39,19 @@ ABADI</span>
         <div className="hidden md:flex items-center space-x-8">
           <Link 
             to="/"
-            className={`font-opensans font-medium hover:text-terracotta transition-colors ${(location.pathname === '/' || !isScrolled) ? 'text-terracotta' : 'text-deepbrown'}`}
+            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname === '/' || !isScrolled) ? 'text-forestgreen' : 'text-charcoal'}`}
           >
             Beranda
           </Link>
           <Link 
             to="/about"
-            className={`font-opensans font-medium hover:text-terracotta transition-colors ${(location.pathname === '/about' || !isScrolled) ? 'text-terracotta' : 'text-deepbrown'}`}
+            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname === '/about' || !isScrolled) ? 'text-forestgreen' : 'text-charcoal'}`}
           >
             Tentang Kami
           </Link>
           <Link 
             to="/products"
-            className={`font-opensans font-medium hover:text-terracotta transition-colors ${(location.pathname.includes('/products') || !isScrolled) ? 'text-terracotta' : 'text-deepbrown'}`}
+            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname.includes('/products') || !isScrolled) ? 'text-forestgreen' : 'text-charcoal'}`}
           >
             Produk
           </Link>
@@ -83,7 +82,7 @@ ABADI</span>
         
         {/* Mobile Menu Button */}
         <button 
-          className={`md:hidden text-deepbrown ${!isScrolled ? 'text-terracotta' : ''} hover:text-terracotta focus:outline-none`}
+          className={`md:hidden text-charcoal ${!isScrolled ? 'text-forestgreen' : ''} hover:text-forestgreen focus:outline-none`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -92,23 +91,23 @@ ABADI</span>
       
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-beige/95 backdrop-blur-md absolute top-full left-0 w-full py-4 shadow-md animate-fade-in">
+        <div className="md:hidden bg-offwhite/95 backdrop-blur-md absolute top-full left-0 w-full py-4 shadow-md animate-fade-in">
           <div className="container-custom flex flex-col space-y-4">
             <Link 
               to="/"
-              className={`font-opensans font-medium py-2 hover:text-terracotta transition-colors ${location.pathname === '/' ? 'text-terracotta' : 'text-deepbrown'}`}
+              className={`font-opensans font-medium py-2 hover:text-forestgreen transition-colors ${location.pathname === '/' ? 'text-forestgreen' : 'text-charcoal'}`}
             >
               Beranda
             </Link>
             <Link 
               to="/about"
-              className={`font-opensans font-medium py-2 hover:text-terracotta transition-colors ${location.pathname === '/about' ? 'text-terracotta' : 'text-deepbrown'}`}
+              className={`font-opensans font-medium py-2 hover:text-forestgreen transition-colors ${location.pathname === '/about' ? 'text-forestgreen' : 'text-charcoal'}`}
             >
               Tentang Kami
             </Link>
             <Link 
               to="/products"
-              className={`font-opensans font-medium py-2 hover:text-terracotta transition-colors ${location.pathname.includes('/products') ? 'text-terracotta' : 'text-deepbrown'}`}
+              className={`font-opensans font-medium py-2 hover:text-forestgreen transition-colors ${location.pathname.includes('/products') ? 'text-forestgreen' : 'text-charcoal'}`}
             >
               Produk
             </Link>

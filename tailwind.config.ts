@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,10 +62,18 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom color palette for Manalagi
+				// Grounded Freshness color palette
+				forestgreen: '#548235',     // Primary Green
+				mintgreen: '#99D98C',       // Secondary Bright Green
+				offwhite: '#FEFDF6',        // Primary Neutral
+				lightgrey: '#E8E8E8',       // Secondary Neutral
+				mutedgold: '#D4AF37',       // Warm Accent (Gold)
+				softpeach: '#FFDAB9',       // Warm Accent (Peach)
+				charcoal: '#333333',        // Primary Text Color
+				darkslate: '#2F4F4F',       // Alternative Text Color
+				// Keep the existing custom color palette
 				terracotta: '#C35A38',
 				deepbrown: '#5D3A1A',
-				forestgreen: '#2D4F33',
 				beige: '#F5F0E6',
 				warmgrey: '#B1A99F',
 				gold: '#D4B37F',
@@ -139,6 +146,7 @@ export default {
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 				'hero-pattern': 'linear-gradient(rgba(93, 58, 26, 0.5), rgba(93, 58, 26, 0.7))',
+				'fresh-gradient': 'linear-gradient(135deg, #FEFDF6 0%, #99D98C 100%)',
 			}
 		}
 	},
