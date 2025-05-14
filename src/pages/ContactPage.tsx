@@ -62,7 +62,7 @@ Terima kasih!
   
   return (
     <div className="pt-24">
-      <section className="bg-deepbrown text-white py-20">
+      <section className="bg-forestgreen text-white py-20">
         <div className="container-custom">
           <h1 className="heading-xl mb-6">Terhubung Dengan Kami</h1>
           <p className="paragraph text-white/80 max-w-3xl">
@@ -75,8 +75,8 @@ Terima kasih!
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
             <div className="card-highlight group hover:border-forestgreen transition-all p-8 text-center">
-              <div className="w-16 h-16 bg-terracotta/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <MapPin className="h-8 w-8 text-terracotta" />
+              <div className="w-16 h-16 bg-forestgreen/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <MapPin className="h-8 w-8 text-forestgreen" />
               </div>
               <h3 className="text-xl font-playfair font-bold mb-3">Alamat Kami</h3>
               <p className="text-deepbrown/80 mb-4">
@@ -86,7 +86,7 @@ Terima kasih!
                 href="https://maps.google.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-terracotta hover:underline inline-flex items-center"
+                className="text-forestgreen hover:underline inline-flex items-center"
               >
                 Buka di Google Maps
                 <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -96,12 +96,12 @@ Terima kasih!
             </div>
             
             <div className="card-highlight group hover:border-forestgreen transition-all p-8 text-center">
-              <div className="w-16 h-16 bg-terracotta/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Phone className="h-8 w-8 text-terracotta" />
+              <div className="w-16 h-16 bg-forestgreen/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Phone className="h-8 w-8 text-forestgreen" />
               </div>
               <h3 className="text-xl font-playfair font-bold mb-3">Telepon</h3>
               <p className="text-deepbrown/80 mb-2">
-                <a href="https://wa.me/+6281223378900" className="hover:text-terracotta hover:underline">
+                <a href="https://wa.me/+6281223378900" className="hover:text-forestgreen hover:underline">
                   +62 812 2337 8900
                 </a>
               </p>
@@ -111,12 +111,12 @@ Terima kasih!
             </div>
             
             <div className="card-highlight group hover:border-forestgreen transition-all p-8 text-center">
-              <div className="w-16 h-16 bg-terracotta/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Mail className="h-8 w-8 text-terracotta" />
+              <div className="w-16 h-16 bg-forestgreen/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Mail className="h-8 w-8 text-forestgreen" />
               </div>
               <h3 className="text-xl font-playfair font-bold mb-3">Email</h3>
               <p className="text-deepbrown/80 mb-4">
-                <a href="mailto:manalagibarokah.makmurabadi@gmail.com" className="hover:text-terracotta hover:underline">
+                <a href="mailto:manalagibarokah.makmurabadi@gmail.com" className="hover:text-forestgreen hover:underline">
                   manalagibarokah.makmurabadi@gmail.com
                 </a>
               </p>
@@ -145,7 +145,7 @@ Terima kasih!
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 bg-white border border-warmgrey/30 rounded-md focus:outline-none focus:ring-2 focus:ring-terracotta/50"
+                      className="w-full px-4 py-3 bg-white border border-warmgrey/30 rounded-md focus:outline-none focus:ring-2 focus:ring-forestgreen/50"
                     />
                   </div>
                   <div>
@@ -159,7 +159,7 @@ Terima kasih!
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 bg-white border border-warmgrey/30 rounded-md focus:outline-none focus:ring-2 focus:ring-terracotta/50"
+                      className="w-full px-4 py-3 bg-white border border-warmgrey/30 rounded-md focus:outline-none focus:ring-2 focus:ring-forestgreen/50"
                     />
                   </div>
                 </div>
@@ -175,7 +175,7 @@ Terima kasih!
                       name="company"
                       value={formData.company}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-white border border-warmgrey/30 rounded-md focus:outline-none focus:ring-2 focus:ring-terracotta/50"
+                      className="w-full px-4 py-3 bg-white border border-warmgrey/30 rounded-md focus:outline-none focus:ring-2 focus:ring-forestgreen/50"
                     />
                   </div>
                   <div>
@@ -188,7 +188,7 @@ Terima kasih!
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 bg-white border border-warmgrey/30 rounded-md focus:outline-none focus:ring-2 focus:ring-terracotta/50"
+                      className="w-full px-4 py-3 bg-white border border-warmgrey/30 rounded-md focus:outline-none focus:ring-2 focus:ring-forestgreen/50"
                     />
                   </div>
                 </div>
@@ -203,7 +203,7 @@ Terima kasih!
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-white border border-warmgrey/30 rounded-md focus:outline-none focus:ring-2 focus:ring-terracotta/50"
+                    className="w-full px-4 py-3 bg-white border border-warmgrey/30 rounded-md focus:outline-none focus:ring-2 focus:ring-forestgreen/50"
                   >
                     <option value="">Pilih subjek pertanyaan</option>
                     <option value="Permintaan Penawaran">Permintaan Penawaran</option>
@@ -224,7 +224,7 @@ Terima kasih!
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="w-full px-4 py-3 bg-white border border-warmgrey/30 rounded-md focus:outline-none focus:ring-2 focus:ring-terracotta/50 resize-none"
+                    className="w-full px-4 py-3 bg-white border border-warmgrey/30 rounded-md focus:outline-none focus:ring-2 focus:ring-forestgreen/50 resize-none"
                   ></textarea>
                 </div>
                 
@@ -280,7 +280,7 @@ Terima kasih!
 
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-playfair font-bold mb-4 flex items-center">
-                  <Clock className="h-5 w-5 mr-2 text-terracotta"/>
+                  <Clock className="h-5 w-5 mr-2 text-forestgreen"/>
                   Jam Operasional
                 </h3>
                 <ul className="space-y-2">

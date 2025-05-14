@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const AboutPage = () => {
   return (
     <div className="pt-24">
-      <section className="bg-deepbrown text-white py-20">
+      <section className="bg-forestgreen text-white py-20">
         <div className="container-custom">
           <h1 className="heading-xl mb-6">Lebih Dekat Dengan CV. Manalagi Barokah Makmur Abadi</h1>
           <p className="paragraph text-white/80 max-w-3xl">
@@ -20,7 +20,7 @@ const AboutPage = () => {
               <h2 className="heading-lg mb-6">
                 <span className="golden-border pb-2">Akar Kami:</span> Sebuah Perjalanan dari Hati
               </h2>
-              <h3 className="heading-md text-terracotta mb-4">
+              <h3 className="heading-md text-forestgreen mb-4">
                 Dari Usaha Keluarga yang Rendah Hati, Menuju Standar Industri yang Tinggi.
               </h3>
               <p className="paragraph mb-4">
@@ -125,20 +125,6 @@ const AboutPage = () => {
               />
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-terracotta text-white text-center">
-        <div className="container-custom">
-          <h2 className="heading-md text-white mb-6">
-            Ingin Berkolaborasi dengan Kami?
-          </h2>
-          <Link 
-            to="/contact" 
-            className="bg-white text-terracotta hover:bg-white/90 transition-colors font-semibold px-8 py-4 rounded-md shadow-md hover:shadow-lg tracking-wide uppercase inline-block"
-          >
-            HUBUNGI KAMI
-          </Link>
         </div>
       </section>
     </div>

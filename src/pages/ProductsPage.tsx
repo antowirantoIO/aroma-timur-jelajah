@@ -63,7 +63,7 @@ const ProductsPage = () => {
   
   return (
     <div className="pt-24">
-      <section className="bg-deepbrown text-white py-20">
+      <section className="bg-forestgreen text-white py-20">
         <div className="container-custom">
           <h1 className="heading-xl mb-6">Ensiklopedia Rempah CV. Manalagi</h1>
           <p className="paragraph text-white/80 max-w-3xl">
