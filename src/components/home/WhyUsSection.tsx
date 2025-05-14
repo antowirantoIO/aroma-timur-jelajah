@@ -34,7 +34,7 @@ const WhyUsSection = () => {
     <section className="bg-offwhite py-20 md:py-28">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="heading-lg mb-4 text-forestgreen">
+          <h2 className="heading-lg mb-4 text-charcoal">
             <span className="golden-border pb-2">Mengapa CV. Manalagi?</span> Alasan Memilih Keunggulan
           </h2>
           <p className="paragraph max-w-3xl mx-auto text-charcoal/80">
@@ -46,9 +46,9 @@ const WhyUsSection = () => {
           {features.map((feature, index) => (
             <div 
               key={index} 
-              className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all p-8 border border-lightgrey hover:border-forestgreen hover:-translate-y-1"
+              className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all p-8 border border-lightgrey hover:border-mintgreen hover:-translate-y-1"
             >
-              <div className="bg-forestgreen/10 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:bg-forestgreen/20 transition-colors">
+              <div className="bg-mintgreen/20 w-16 h-16 rounded-full flex items-center justify-center mb-6 group-hover:bg-mintgreen/30 transition-colors">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-playfair font-bold mb-3 text-forestgreen">
