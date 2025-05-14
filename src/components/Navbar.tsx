@@ -27,10 +27,10 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-offwhite/95 backdrop-blur-md shadow-md py-2' : 'bg-transparent py-4'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 bg-offwhite/95 py-4`}>
       <div className="container-custom flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <span className={`${!isScrolled ? 'text-forestgreen' : ''} font-playfair font-bold text-2xl text-charcoal`}>
+          <span className={`font-playfair font-bold text-2xl text-charcoal`}>
             CV. <span className="text-forestgreen">MANALAGI BAROKAH MAKMUR ABADI</span>
           </span>
         </Link>
@@ -39,19 +39,19 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-8">
           <Link 
             to="/"
-            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname === '/' || !isScrolled) ? 'text-forestgreen' : 'text-charcoal'}`}
+            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname === '/') ? 'text-forestgreen' : 'text-charcoal'}`}
           >
             Beranda
           </Link>
           <Link 
             to="/about"
-            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname === '/about' || !isScrolled) ? 'text-forestgreen' : 'text-charcoal'}`}
+            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname === '/about') ? 'text-forestgreen' : 'text-charcoal'}`}
           >
             Tentang Kami
           </Link>
           <Link 
             to="/products"
-            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname.includes('/products') || !isScrolled) ? 'text-forestgreen' : 'text-charcoal'}`}
+            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname.includes('/products')) ? 'text-forestgreen' : 'text-charcoal'}`}
           >
             Produk
           </Link>
