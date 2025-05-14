@@ -83,7 +83,7 @@ Terima kasih!
                 Jl. Terusan Timor Raya Km. 7, Kupang, Nusa Tenggara Timur, 85228, Indonesia
               </p>
               <a 
-                href="https://maps.google.com" 
+                href="https://www.google.com/maps?ll=-10.144169,123.626181&z=16&t=h&hl=en&gl=ID&mapclient=embed&cid=11653079703817797056"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-forestgreen hover:underline inline-flex items-center"
@@ -116,7 +116,7 @@ Terima kasih!
               </div>
               <h3 className="text-xl font-playfair font-bold mb-3">Email</h3>
               <p className="text-deepbrown/80 mb-4">
-                <a href="mailto:manalagibarokah.makmurabadi@gmail.com" className="hover:text-forestgreen hover:underline">
+                <a href="mailto:manalagibarokah.makmurabadi@gmail.com" className="hover:text-forestgreen hover:underline break-words">
                   manalagibarokah.makmurabadi@gmail.com
                 </a>
               </p>
