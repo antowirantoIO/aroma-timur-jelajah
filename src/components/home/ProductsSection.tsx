@@ -18,6 +18,12 @@ const products = [
     image: "https://media-public.canva.com/JfZcI/MADza5JfZcI/1/tl.jpg"
   },
   {
+    id: "sirih-hutan",
+    name: "Sirih Hutan",
+    description: "Sirih Hutan: Daun Hijau Segar untuk Kesehatan dan Kecantikan Alami.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Piper_aduncum.jpg"
+  },
+  {
     id: "kopra",
     name: "Kopra",
     description: "Kopra Premium: Kelapa Terseleksi untuk Ekstraksi Minyak Berkualitas Tinggi.",

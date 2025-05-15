@@ -103,7 +103,7 @@ const Footer = () => {
         <div className="border-t botext-beige/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-offwhite text-sm">
-              &copy; {new Date().getFullYear()} CV. Manalagi Barokah Makmur Abadi. Seluruh Hak Cipta Dilindungi.
+              &copy; {new Date().getFullYear()} <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b> Abadi. Seluruh Hak Cipta Dilindungi.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="text-offwhite hover:text-beige/80 text-sm transition-colors">

@@ -21,11 +21,6 @@ const features = [
     icon: <Handshake className="h-10 w-10 text-forestgreen" />,
     title: "Kemitraan yang Bertumbuh",
     description: "Kami percaya pada hubungan jangka panjang. Kami bukan hanya supplier, tapi partner strategis yang memahami kebutuhan Anda."
-  },
-  {
-    icon: <Leaf className="h-10 w-10 text-forestgreen" />,
-    title: "Berkomitmen pada Praktik Berkelanjutan",
-    description: "Menghargai alam yang memberi, kami berupaya menerapkan praktik pertanian dan pengolahan yang bertanggung jawab."
   }
 ];
 
@@ -35,7 +30,7 @@ const WhyUsSection = () => {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="heading-lg mb-4 text-charcoal">
-            <span className="golden-border pb-2">Mengapa CV. Manalagi?</span> Alasan Memilih Keunggulan
+            <span className="pb-2">Mengapa <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b>?</span>
           </h2>
           <p className="paragraph max-w-3xl mx-auto text-charcoal/80">
             Keunggulan yang Kami Tawarkan, Kepercayaan yang Anda Dapatkan.

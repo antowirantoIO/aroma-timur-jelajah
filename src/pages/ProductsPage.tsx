@@ -46,6 +46,13 @@ const products = [
     category: "Olahan",
     description: "Kacang Mete Pilihan: Tekstur Renyah dengan Cita Rasa Khas NTT.",
     image: "https://media-public.canva.com/MADW_jrdwW4/1/thumbnail_large-1.jpg"
+  },
+  {
+    id: "sirih-hutan", // ID baru untuk Sirih Hutan
+    name: "Sirih Hutan",
+    category: "Rempah Dasar", // Kategori bisa disesuaikan jika perlu, misalnya "Herbal" atau "Tradisional"
+    description: "Sirih Hutan Segar: Daun Alami dengan Aroma Khas untuk Kebutuhan Tradisional dan Kesehatan.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Piper_aduncum.jpg"
   }
 ];
 
@@ -65,7 +72,7 @@ const ProductsPage = () => {
     <div className="pt-24">
       <section className="bg-forestgreen text-white py-20">
         <div className="container-custom">
-          <h1 className="heading-xl mb-6">Ensiklopedia Rempah CV. Manalagi</h1>
+          <h1 className="heading-xl mb-6">Ensiklopedia Rempah <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b></h1>
           <p className="paragraph text-white/80 max-w-3xl">
             Kualitas Murni, Manfaat Nyata. Temukan produk premium kami yang telah melalui standar kualitas ketat.
           </p>

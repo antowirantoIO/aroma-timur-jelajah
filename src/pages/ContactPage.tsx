@@ -66,7 +66,7 @@ Terima kasih!
         <div className="container-custom">
           <h1 className="heading-xl mb-6">Terhubung Dengan Kami</h1>
           <p className="paragraph text-white/80 max-w-3xl">
-            Pintu Anda Menuju Rempah Kualitas Terbaik. Tim CV. Manalagi Barokah Makmur Abadi siap melayani pertanyaan, permintaan sampel, hingga diskusi kemitraan strategis.
+            Pintu Anda Menuju Rempah Kualitas Terbaik. Tim <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b> siap melayani pertanyaan, permintaan sampel, hingga diskusi kemitraan strategis.
           </p>
         </div>
       </section>
@@ -94,7 +94,28 @@ Terima kasih!
                 </svg>
               </a>
             </div>
-            
+
+            <div className="card-highlight group hover:border-forestgreen transition-all p-8 text-center">
+              <div className="w-16 h-16 bg-forestgreen/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <MapPin className="h-8 w-8 text-forestgreen" /> {/* Menggunakan ikon MapPin yang sama */}
+              </div>
+              <h3 className="text-xl font-playfair font-bold mb-3">Warehouse & cabang</h3>
+              <p className="text-deepbrown/80 mb-4">
+                Jl. Sanggrahan No.35, Pandean, Lodoyong, Kec. Ambarawa, Kabupaten Semarang, Jawa Tengah 50611
+              </p>
+              <a
+                  href="https://maps.google.com/?q=Jl. Sanggrahan No.35, Pandean, Lodoyong, Kec. Ambarawa, Kabupaten Semarang, Jawa Tengah 50611" // Link Google Maps yang lebih spesifik
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-forestgreen hover:underline inline-flex items-center"
+              >
+                Buka di Google Maps
+                <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg>
+              </a>
+            </div>
+
             <div className="card-highlight group hover:border-forestgreen transition-all p-8 text-center">
               <div className="w-16 h-16 bg-forestgreen/10 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Phone className="h-8 w-8 text-forestgreen" />
@@ -105,25 +126,31 @@ Terima kasih!
                   +62 812 2337 8900
                 </a>
               </p>
+              <p className="text-deepbrown/80 mb-2">
+                <a href="https://wa.me/+62881234588819" className="hover:text-forestgreen hover:underline">
+                  +62 812 3458 8819
+                </a>
+              </p>
               <p className="text-sm text-deepbrown/60">
                 Kami siap melayani Anda.
               </p>
             </div>
-            
+
             <div className="card-highlight group hover:border-forestgreen transition-all p-8 text-center">
               <div className="w-16 h-16 bg-forestgreen/10 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Mail className="h-8 w-8 text-forestgreen" />
               </div>
               <h3 className="text-xl font-playfair font-bold mb-3">Email</h3>
               <p className="text-deepbrown/80 mb-4">
-                <a href="mailto:manalagibarokah.makmurabadi@gmail.com" className="hover:text-forestgreen hover:underline break-words">
-                  manalagibarokah.makmurabadi@gmail.com
+                <a href="mailto:cv.manalagi.b.m@gmail.com" className="hover:text-forestgreen hover:underline break-words">
+                  cv.manalagi.b.m@gmail.com
                 </a>
               </p>
               <p className="text-sm text-deepbrown/60">
                 Kami akan merespon secepatnya.
               </p>
             </div>
+
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
@@ -276,23 +303,6 @@ Terima kasih!
                       width="600" height="380" loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-              </div>
-
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-playfair font-bold mb-4 flex items-center">
-                  <Clock className="h-5 w-5 mr-2 text-forestgreen"/>
-                  Jam Operasional
-                </h3>
-                <ul className="space-y-2">
-                  <li className="flex justify-between">
-                  <span className="font-medium">Senin - Sabtu</span>
-                    <span>09:00 - 18:00 WITA</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="font-medium">Minggu</span>
-                    <span>13:00 - 17:30 WITA</span>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>

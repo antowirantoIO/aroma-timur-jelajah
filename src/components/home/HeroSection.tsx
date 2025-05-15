@@ -33,7 +33,7 @@ const HeroSection = () => {
         <div className="container-custom text-center md:text-left">
           <div className="max-w-3xl mx-auto md:mx-0 animate-fade-in">
             <h1 className="text-offwhite font-playfair text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              CV. MANALAGI BAROKAH MAKMUR ABADI
+              <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b>
             </h1>
             <h2 className="text-offwhite/90 text-xl md:text-2xl font-opensans leading-relaxed mb-5">
               Di Mana Setiap Butir Rempah Menceritakan Kisah Keaslian Nusa Tenggara Timur.

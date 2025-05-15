@@ -21,11 +21,11 @@ const VisionSection = () => {
             </div>
             
             <h2 className="heading-lg text-forestgreen mb-6">
-              <span className="border-b-2 border-mutedgold pb-2">Dari Ladang NTT</span> ke Dapur Dunia: Visi Global Kami
+              <span className="border-b-2 pb-2">Dari Ladang NTT</span> ke Dapur Dunia: Visi Global Kami
             </h2>
             
             <p className="text-charcoal/80 mb-6 paragraph">
-              Di CV. Manalagi, kami tidak hanya memasarkan produk. Kami mengenalkan dunia pada keajaiban rempah Indonesia, khususnya dari Nusa Tenggara Timur. Kami memiliki visi untuk menjadi pemain terdepan di kancah industri rempah global yang membawa kebanggaan bagi Indonesia.
+              Di <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b>, kami tidak hanya memasarkan produk. Kami mengenalkan dunia pada keajaiban rempah Indonesia, khususnya dari Nusa Tenggara Timur. Kami memiliki visi untuk menjadi pemain terdepan di kancah industri rempah global yang membawa kebanggaan bagi Indonesia.
             </p>
             
             <p className="text-charcoal/80 paragraph">
@@ -41,7 +41,7 @@ const VisionSection = () => {
                   <div className="text-charcoal/80">Petani Mitra</div>
                 </div>
                 <div className="bg-white p-5 rounded-lg border border-lightgrey shadow-md">
-                  <div className="font-playfair font-bold text-4xl text-forestgreen mb-2">3</div>
+                  <div className="font-playfair font-bold text-4xl text-forestgreen mb-2">5</div>
                   <div className="text-charcoal/80">Provinsi</div>
                 </div>
               </div>
@@ -49,10 +49,6 @@ const VisionSection = () => {
                 <div className="bg-white p-5 rounded-lg border border-lightgrey shadow-md">
                   <div className="font-playfair font-bold text-4xl text-forestgreen mb-2">12+</div>
                   <div className="text-charcoal/80">Tahun Pengalaman</div>
-                </div>
-                <div className="bg-white p-5 rounded-lg border border-lightgrey shadow-md">
-                  <div className="font-playfair font-bold text-4xl text-forestgreen mb-2">5+</div>
-                  <div className="text-charcoal/80">Negara Tujuan</div>
                 </div>
               </div>
             </div>

@@ -6,7 +6,7 @@ const AboutPage = () => {
     <div className="pt-24">
       <section className="bg-forestgreen text-white py-20">
         <div className="container-custom">
-          <h1 className="heading-xl mb-6">Lebih Dekat Dengan CV. Manalagi Barokah Makmur Abadi</h1>
+          <h1 className="heading-xl mb-6">Lebih Dekat Dengan <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b></h1>
           <p className="paragraph text-white/80 max-w-3xl">
             Mengenal lebih dekat perjalanan kami, nilai-nilai yang kami pegang, dan komitmen kami terhadap kualitas dan keberlanjutan.
           </p>
@@ -18,19 +18,19 @@ const AboutPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="heading-lg mb-6">
-                <span className="golden-border pb-2">Akar Kami:</span> Sebuah Perjalanan dari Hati
+                <span className="golden-border pb-2">Akar Kami:</span> Sebuah Perjalanan
               </h2>
               <h3 className="heading-md text-forestgreen mb-4">
-                Dari Usaha Keluarga yang Rendah Hati, Menuju Standar Industri yang Tinggi.
+                Dari Usaha Keluarga, Menuju Standar Industri yang Tinggi.
               </h3>
               <p className="paragraph mb-4">
-                Perjalanan CV. Manalagi Barokah Makmur Abadi bermula pada tahun 2010, berawal dari usaha keluarga sederhana yang berfokus pada pengolahan kemiri dari kebun-kebun di sekitar Kupang, Nusa Tenggara Timur.
+                Perjalanan <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b> bermula pada tahun 2010, berawal dari usaha keluarga sederhana yang berfokus pada pengolahan kemiri dari kebun-kebun di sekitar Kupang, Nusa Tenggara Timur.
               </p>
               <p className="paragraph mb-4">
                 Dengan tekad kuat dan dedikasi pada kualitas, kami bertransformasi dari UD (Usaha Dagang) menjadi CV (Commanditaire Vennootschap) yang lebih terstruktur dengan diversifikasi produk meliputi Kemiri, Asam Jawa, Kopra, dan berbagai hasil bumi unggulan lainnya.
               </p>
               <p className="paragraph">
-                Saat ini, CV. Manalagi telah menjadi salah satu pemasok terpercaya hasil bumi NTT dengan jangkauan pasar yang luas, tetapi kami tetap berpegang pada nilai-nilai awal: kualitas tanpa kompromi, transparansi, dan hubungan yang berkelanjutan.
+                Saat ini, <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b> telah menjadi salah satu pemasok terpercaya hasil bumi NTT dengan jangkauan pasar yang luas, tetapi kami tetap berpegang pada nilai-nilai awal: kualitas tanpa kompromi, transparansi, dan hubungan yang berkelanjutan.
               </p>
             </div>
             <div>
@@ -93,10 +93,10 @@ const AboutPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="heading-lg text-white mb-6">
-                <span className="border-b-2 border-gold pb-2">Komitmen Kami</span> dalam Pembelian dan Distribusi Barang
+                <span className="pb-2">Komitmen Kami</span> dalam Pembelian dan Distribusi Barang
               </h2>
               <p className="text-white/80 mb-6">
-                Di CV. Manalagi, kami berfokus pada proses pembelian dan sortir barang yang cermat sebelum dikemas untuk penjualan. Kami memahami pentingnya menyediakan produk berkualitas yang tepat untuk pasar grosir. Oleh karena itu, kami berkomitmen untuk:
+                Di <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b>, kami berfokus pada proses pembelian dan sortir barang yang cermat sebelum dikemas untuk penjualan. Kami memahami pentingnya menyediakan produk berkualitas yang tepat untuk pasar grosir. Oleh karena itu, kami berkomitmen untuk:
               </p>
               <ul className="space-y-4 text-white/80">
                 <li className="flex">
@@ -119,7 +119,7 @@ const AboutPage = () => {
             </div>
             <div>
               <img
-                  src="https://media-public.canva.com/KIh2Q/MAEIqmKIh2Q/1/tl.jpg"
+                  src="https://www.mas-software.com/wp-content/uploads/2022/09/Pengertian-Gudang.jpg.webp"
                   alt="Business Distribution"
                   className="rounded-lg shadow-xl"
               />

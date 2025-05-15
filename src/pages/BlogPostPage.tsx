@@ -41,8 +41,8 @@ const blogPosts = [
         <li>Pengobatan tradisional untuk mengatasi diare dan gangguan pencernaan lainnya</li>
       </ul>
 
-      <h2>Kemiri Kualitas Prima CV. Manalagi</h2>
-      <p>Di CV. Manalagi Barokah Makmur Abadi, kami memahami nilai tak tergantikan dari kemiri berkualitas. Itulah mengapa kami menerapkan standar ketat dalam seleksi biji kemiri dari kebun-kebun terbaik di Nusa Tenggara Timur. Proses pengeringan yang sempurna memastikan kadar air optimal yang menjaga kesegaran dan nutrisi, sementara penyortiran teliti memisahkan biji-biji premium untuk pasar kami.</p>
+      <h2>Kemiri Kualitas Prima <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b></h2>
+      <p>Di <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b> Abadi, kami memahami nilai tak tergantikan dari kemiri berkualitas. Itulah mengapa kami menerapkan standar ketat dalam seleksi biji kemiri dari kebun-kebun terbaik di Nusa Tenggara Timur. Proses pengeringan yang sempurna memastikan kadar air optimal yang menjaga kesegaran dan nutrisi, sementara penyortiran teliti memisahkan biji-biji premium untuk pasar kami.</p>
 
       <p>Kemiri kami tidak hanya menawarkan cita rasa yang kaya untuk masakan Anda, tetapi juga menyimpan potensi kesehatan yang luar biasa. Untuk informasi lebih lanjut tentang produk kemiri kami dan cara memaksimalkan manfaatnya, jangan ragu untuk menghubungi tim kami.</p>
 
@@ -58,7 +58,7 @@ const blogPosts = [
   },
   {
     id: "2",
-    title: "Dari Ladang ke Dapur: Perjalanan Asam Jawa Premium CV. Manalagi",
+    title: "Dari Ladang ke Dapur: Perjalanan Asam Jawa Premium <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b>",
     excerpt: "Menelusuri proses panjang pengolahan asam jawa, dari pemilihan pohon terbaik hingga pengemasan yang mempertahankan kualitas.",
     content: "<p>Lorem ipsum dolor sit amet...</p>", // This would be the full HTML content
     category: "Proses Produksi",
@@ -269,7 +269,7 @@ raccotta truncate max-w-[200px]">{post.title}</span>
                   </div>
                 </div>
                 <p className="text-deepbrown/70 text-sm">
-                  Bergabung dengan tim CV. Manalagi untuk berbagi pengetahuan dan wawasan seputar dunia rempah Indonesia, khususnya dari Nusa Tenggara Timur.
+                  Bergabung dengan tim <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b> untuk berbagi pengetahuan dan wawasan seputar dunia rempah Indonesia, khususnya dari Nusa Tenggara Timur.
                 </p>
               </div>
               

@@ -79,7 +79,7 @@ const BlogPage = () => {
     <div className="pt-24">
       <section className="bg-deepbrown text-white py-20">
         <div className="container-custom">
-          <h1 className="heading-xl mb-6">Jurnal Rempah CV. Manalagi</h1>
+          <h1 className="heading-xl mb-6">Jurnal Rempah <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b></h1>
           <p className="paragraph text-white/80 max-w-3xl">
             Wawasan, cerita, dan inspirasi dari dunia rempah. Temukan artikel menarik tentang produk, petani, dan industri rempah NTT.
           </p>

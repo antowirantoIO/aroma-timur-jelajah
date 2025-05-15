@@ -21,7 +21,7 @@ const products = [
     gallery: [
       "https://media-public.canva.com/o5pBU/MAFdWzo5pBU/1/tl.jpg",
       "https://media-public.canva.com/MADJlI5i8rs/1/thumbnail_large.jpg",
-      "https://media-public.canva.com/MADCgFUwZTs/1/thumbnail_large-1.jpg"
+      "https://service.tandycom.online/images/kemiri.png"
     ]
   },
   {
@@ -30,7 +30,7 @@ const products = [
     category: "Perasa",
     tagline: "Sentuhan Asam yang Memikat dan Menyegarkan",
     description: "Asam Jawa Murni: Sentuhan Asam Memikat yang Mengangkat Setiap Cita Rasa Masakan.",
-    fullDescription: "Asam Jawa dari CV. Manalagi dipanen pada tingkat kematangan optimal untuk menghasilkan cita rasa asam yang khas namun tetap seimbang. Buah dengan rasa segar ini digunakan secara luas dalam masakan di Indonesia ataupun sebagai campuran pada jamu tradisional. Proses pengolahan kami memastikan kemurnian dan kebersihan produk tanpa mengurangi profil rasanya yang kaya.", // Menambahkan info dari PDF
+    fullDescription: "Asam Jawa dari CV. MANALAGI BAROKAH MAKMUR ABADI dipanen pada tingkat kematangan optimal untuk menghasilkan cita rasa asam yang khas namun tetap seimbang. Buah dengan rasa segar ini digunakan secara luas dalam masakan di Indonesia ataupun sebagai campuran pada jamu tradisional. Proses pengolahan kami memastikan kemurnian dan kebersihan produk tanpa mengurangi profil rasanya yang kaya.", // Menambahkan info dari PDF
     aroma: "Asam segar dengan hint manis buah-buahan",
     rasa: "Asam tajam menyegarkan, sedikit manis, dengan kompleksitas rasa yang khas",
     uses: ["Bumbu dasar masakan tradisional (sayur asam, kuah ikan, sambal)", "Bahan pembuatan saus, chutney, dan marinasi", "Bahan utama minuman tradisional penyegar (es asam, gula asam)", "Komponen penting dalam jamu dan pengobatan herbal"],
@@ -50,7 +50,7 @@ const products = [
     category: "Bahan Baku",
     tagline: "Daging Kelapa Kering Kualitas Unggul untuk Industri Minyak",
     description: "Kopra Premium: Kelapa Terseleksi untuk Ekstraksi Minyak Berkualitas Tinggi.",
-    fullDescription: "Kopra adalah daging buah kelapa yang dikeringkan secara optimal. Sebagai produk kelapa yang sangat penting, kopra dari CV. Manalagi merupakan bahan baku pembuatan minyak kelapa berkualitas tinggi dan berbagai produk turunan lainnya. Kami memastikan proses pengeringan yang tepat untuk menghasilkan kopra dengan kadar air rendah dan kualitas terbaik.", // Menggunakan info dari PDF
+    fullDescription: "Kopra adalah daging buah kelapa yang dikeringkan secara optimal. Sebagai produk kelapa yang sangat penting, kopra dari CV. MANALAGI BAROKAH MAKMUR ABADI merupakan bahan baku pembuatan minyak kelapa berkualitas tinggi dan berbagai produk turunan lainnya. Kami memastikan proses pengeringan yang tepat untuk menghasilkan kopra dengan kadar air rendah dan kualitas terbaik.", // Menggunakan info dari PDF
     aroma: "Khas kelapa kering, sedikit manis dan gurih",
     rasa: "Rasa kelapa yang intens dan gurih (tergantung proses pengeringan)",
     uses: ["Bahan baku utama industri minyak kelapa", "Bahan pembuatan margarin, sabun, dan kosmetik", "Industri pakan ternak (sebagai bungkil kopra setelah ekstraksi minyak)", "Bahan dalam industri oleokimia"],
@@ -70,7 +70,7 @@ const products = [
     category: "Bahan Baku",
     tagline: "Umbi Multifungsi, Solusi Inovatif untuk Industri Pangan dan Lainnya",
     description: "Porang Unggul: Umbi Terstandarisasi untuk Industri Pangan dan Suplemen.",
-    fullDescription: "Porang (Amorphophallus muelleri) dari CV. Manalagi adalah umbi berkualitas tinggi yang kaya akan glukomanan. Kami menyediakan porang dalam bentuk chips kering atau tepung yang telah diproses sesuai standar. Porang dijadikan sebagai bahan baku serbaguna dalam industri seperti kertas, cat, serta sebagai bahan pengikat penting dalam industri makanan (seperti mie shirataki dan konnyaku) dan kosmetik.", // Menggunakan info dari PDF
+    fullDescription: "Porang (Amorphophallus muelleri) dari CV. MANALAGI BAROKAH MAKMUR ABADI adalah umbi berkualitas tinggi yang kaya akan glukomanan. Kami menyediakan porang dalam bentuk chips kering atau tepung yang telah diproses sesuai standar. Porang dijadikan sebagai bahan baku serbaguna dalam industri seperti kertas, cat, serta sebagai bahan pengikat penting dalam industri makanan (seperti mie shirataki dan konnyaku) dan kosmetik.", // Menggunakan info dari PDF
     aroma: "Netral hingga sedikit berbau tanah (chips kering sebelum diolah)",
     rasa: "Netral (setelah diolah menjadi tepung atau produk akhir)",
     uses: ["Industri pangan (tepung konjac/glukomanan, mie shirataki, jeli konnyaku, pengental makanan)", "Industri kosmetik (bahan pengikat, pelembab, masker)", "Industri farmasi dan suplemen kesehatan (sumber serat, manajemen berat badan)", "Bahan baku industri kertas, cat, dan perekat ramah lingkungan"],
@@ -80,7 +80,7 @@ const products = [
     image: "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/11/04045014/Mengenal-Tanaman-Porang-Bahan-Baku-Pembuatan-Shirataki.jpg.webp",
     gallery: [
       "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/11/04045014/Mengenal-Tanaman-Porang-Bahan-Baku-Pembuatan-Shirataki.jpg.webp",
-      "https://media-public.canva.com/wcULU/MAFebewcULU/1/tl.jpg", // Placeholder gambar porang lain
+      "https://www.idealoka.com/wp-content/uploads/2018/08/1-1.jpg", // Placeholder gambar porang lain
       "https://media-public.canva.com/rIwSM/MAFebfrIwSM/1/tl.jpg"  // Placeholder gambar porang lain
     ]
   },
@@ -90,7 +90,7 @@ const products = [
     category: "Rempah Dasar",
     tagline: "Pesona Emas Alami untuk Kekayaan Rasa dan Khasiat Optimal",
     description: "Kunyit Kering Premium: Warna Kuning Cerah, Aroma Kuat, untuk Kebutuhan Masakan dan Kesehatan.",
-    fullDescription: "Kunyit (Curcuma longa) termasuk salah satu tanaman rempah-rempah dan obat asli alami yang berasal dari wilayah Asia Tenggara. CV. Manalagi menyediakan kunyit kering (irisan atau utuh) kualitas premium dengan warna kuning-oranye intens dan aroma khas yang kuat. Kunyit kering kami banyak digunakan dalam industri jamu tradisional, sebagai bumbu esensial dalam berbagai masakan, dan sebagai pewarna alami.", // Menggunakan info dari PDF
+    fullDescription: "Kunyit (Curcuma longa) termasuk salah satu tanaman rempah-rempah dan obat asli alami yang berasal dari wilayah Asia Tenggara. CV. MANALAGI BAROKAH MAKMUR ABADI menyediakan kunyit kering (irisan atau utuh) kualitas premium dengan warna kuning-oranye intens dan aroma khas yang kuat. Kunyit kering kami banyak digunakan dalam industri jamu tradisional, sebagai bumbu esensial dalam berbagai masakan, dan sebagai pewarna alami.", // Menggunakan info dari PDF
     aroma: "Khas kunyit yang hangat, sedikit pedas, dengan nuansa earthy dan musky",
     rasa: "Hangat, sedikit pahit, dengan aftertaste pedas dan earthy yang khas",
     uses: ["Bumbu utama masakan (gulai, kari, soto, nasi kuning, pepes)", "Bahan utama industri jamu tradisional dan suplemen herbal (anti-inflamasi, antioksidan)", "Pewarna alami untuk makanan, minuman, dan tekstil", "Komponen dalam produk kosmetik dan perawatan kulit tradisional"],
@@ -122,6 +122,43 @@ const products = [
       "https://media-public.canva.com/MADW_jrdwW4/1/thumbnail_large-1.jpg",
       "https://media-public.canva.com/MADAIytxf0c/1/thumbnail_large-1.jpg", // Placeholder gambar kacang mete lain
       "https://media-public.canva.com/MADE78mOoTs/1/thumbnail_large-1.jpg"  // Placeholder gambar kacang mete lain
+    ]
+  },
+  {
+    id: "sirih-hutan",
+    name: "Sirih Hutan",
+    category: "Rempah Dasar", // Bisa juga "Herbal Tradisional" jika ingin kategori baru
+    tagline: "Keajaiban Alam Pedalaman: Kesegaran dan Khasiat Sirih Hutan Asli",
+    description: "Sirih Hutan Alami: Daun Pilihan dengan Aroma Khas Menyegarkan untuk Ragam Kebutuhan Tradisional dan Kesehatan Anda.",
+    fullDescription: "Temukan kesegaran dan khasiat alami dari Sirih Hutan (Piper aduncum) pilihan kami, yang dipetik langsung dari lingkungan alaminya. Dikenal secara turun-temurun karena sifat antiseptik, anti-inflamasi, dan aromatiknya yang kuat, Sirih Hutan menawarkan solusi herbal untuk perawatan luka ringan, menjaga kesehatan mulut, meredakan gangguan pencernaan ringan, hingga sebagai komponen penting dalam berbagai ritual tradisional. Daunnya yang hijau segar memiliki aroma khas yang tajam dan menyegarkan, menjadikannya pilihan utama bagi mereka yang menghargai kearifan lokal dan mencari bahan alami berkualitas tinggi untuk kesehatan dan upacara adat.",
+    aroma: "Sangat khas, segar, pedas (seperti lada), sedikit getir dengan nuansa herbal yang kuat dan kadang terasa sentuhan mint atau eukaliptus samar.",
+    rasa: "Saat dikunyah atau diseduh: Pedas, sepat (astringent), sedikit pahit, meninggalkan sensasi hangat dan bersih di mulut. Tidak umum dikonsumsi langsung sebagai makanan.",
+    uses: [
+      "Perawatan luka luar (sebagai antiseptik alami, membantu menghentikan pendarahan dan mempercepat penyembuhan)",
+      "Menjaga kesehatan mulut (dikunyah untuk menyegarkan napas, mengatasi sariawan, radang gusi)",
+      "Bahan dalam ramuan obat tradisional (rebusan untuk gangguan pencernaan, batuk, demam)",
+      "Digunakan dalam upacara adat dan ritual budaya tertentu",
+      "Sebagai pengharum ruangan alami atau komponen dalam potpourri karena aromanya yang kuat",
+      "Potensi sebagai bahan baku pestisida nabati atau minyak atsiri dengan sifat antibakteri dan antijamur"
+    ],
+    specifications: [
+      "Bentuk Produk: Daun Segar Utuh / Daun Kering Rajangan / Bubuk Halus (sesuai permintaan)",
+      "Asal: Diperoleh dari tumbuhan Sirih Hutan (Piper aduncum) liar atau budidaya terbatas",
+      "Proses Pengeringan (untuk daun kering): Alami dengan diangin-anginkan atau oven suhu rendah untuk menjaga kualitas",
+      "Sortasi: Pemilihan daun berkualitas baik, bebas dari penyakit dan kerusakan fisik berlebih",
+      "Kadar Air (untuk daun kering/bubuk): Idealnya < 10-12% untuk penyimpanan optimal"
+    ],
+    storage: "Daun Segar: Simpan dalam wadah bersih dan sedikit lembab (misalnya dibungkus kertas/kain lembab) di dalam kulkas; gunakan dalam beberapa hari untuk kesegaran maksimal. Daun Kering/Bubuk: Simpan dalam wadah kedap udara, di tempat yang sejuk, kering, dan gelap (terhindar dari sinar matahari langsung) untuk mempertahankan aroma dan khasiatnya lebih lama.",
+    packaging: [
+      "Daun Segar: Ikatan (misalnya per 100g, 200g, 500g), atau dalam kantong plastik berlubang.",
+      "Daun Kering/Bubuk: Kemasan retail dalam pouch food-grade dengan zip-lock atau vacuum-sealed (misal 50g, 100g, 250g).",
+      "Kemasan bulk: Dalam karung bersih atau karton dengan lapisan dalam plastik untuk jumlah besar (misal 1kg, 5kg, 10kg), sesuai kebutuhan industri."
+    ],
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Piper_aduncum.jpg",
+    gallery: [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6e/Piper_aduncum.jpg",
+      "https://www.socfindoconservation.co.id/asset/plant/645-3-piper-aduncum-l.jpg", // Gambar tanaman Sirih Hutan secara keseluruhan
+      "https://radarlambar.bacakoran.co/upload/1408484c37723342f2f1078e73c43fab.jpg" // Detail daun dan bunga/buah Sirih Hutan
     ]
   }
 ];
@@ -332,29 +369,6 @@ const ProductDetailPage = () => {
                   {expandedSection === 'storage' && (
                     <div className="p-4 bg-white">
                       <p>{product.storage}</p>
-                    </div>
-                  )}
-                </div>
-                
-                <div className="border border-warmgrey/30 rounded-lg overflow-hidden">
-                  <button
-                    className="w-full flex justify-between items-center p-4 text-left font-playfair font-bold text-deepbrown hover:bg-warmgrey/5"
-                    onClick={() => toggleSection('packaging')}
-                  >
-                    Informasi Kemasan
-                    {expandedSection === 'packaging' ? <ChevronUp /> : <ChevronDown />}
-                  </button>
-                  
-                  {expandedSection === 'packaging' && (
-                    <div className="p-4 bg-white">
-                      <ul className="space-y-2">
-                        {product.packaging.map((pack, index) => (
-                          <li key={index} className="flex items-start">
-                            <Check className="h-5 w-5 text-forestgreen mr-2 flex-shrink-0 mt-0.5" />
-                            <span>{pack}</span>
-                          </li>
-                        ))}
-                      </ul>
                     </div>
                   )}
                 </div>

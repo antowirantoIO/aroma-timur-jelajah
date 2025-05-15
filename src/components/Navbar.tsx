@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <Link to="/" className="flex items-center">
           <span className={`font-playfair font-bold text-2xl text-charcoal`}>
-            CV. <span className="text-forestgreen">MANALAGI BAROKAH MAKMUR ABADI</span>
+            <span className="text-forestgreen"><b>CV. MANALAGI BAROKAH MAKMUR ABADI</b></span>
           </span>
         </Link>
         

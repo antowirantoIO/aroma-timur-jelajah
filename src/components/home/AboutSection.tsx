@@ -14,7 +14,7 @@ const AboutSection = () => {
               Lebih Dari Sekadar Rempah, Ini Adalah Dedikasi.
             </h3>
             <p className="paragraph mb-6 text-charcoal/80">
-              Sejak 2010, CV. Manalagi Barokah Makmur Abadi telah bertransformasi dari semangat usaha keluarga menjadi pilar pemasok hasil bumi NTT yang terstruktur dan berstandar internasional. Kami bukan hanya pedagang; kami adalah penjaga kualitas, penghubung tradisi dengan pasar global, dan mitra terpercaya Anda dalam menghadirkan cita rasa otentik.
+              Sejak 2010, <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b> telah bertransformasi dari semangat usaha keluarga menjadi pilar pemasok hasil bumi NTT yang terstruktur dan berstandar internasional. Kami bukan hanya pedagang; kami adalah penjaga kualitas, penghubung tradisi dengan pasar global, dan mitra terpercaya Anda dalam menghadirkan cita rasa otentik.
             </p>
             <Link 
               to="/about" 

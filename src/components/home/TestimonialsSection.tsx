@@ -3,21 +3,21 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
   {
-    content: "Kualitas kemiri dari CV. Manalagi benar-benar konsisten. Sebagai produsen minyak kelapa, kami membutuhkan bahan baku yang terjaga mutunya, dan mereka selalu memenuhi ekspektasi.",
+    content: "Kualitas kemiri dari <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b> benar-benar konsisten. Sebagai produsen minyak kelapa, kami membutuhkan bahan baku yang terjaga mutunya, dan mereka selalu memenuhi ekspektasi.",
     author: "Anton Wijaya",
     position: "Purchasing Manager",
     company: "PT Minyak Nusantara",
     rating: 5
   },
   {
-    content: "Pengalaman bermitra dengan CV. Manalagi sangat memuaskan. Mereka tidak hanya menyediakan produk berkualitas tinggi, tetapi juga membantu kami memahami karakteristik setiap bahan dengan detail.",
+    content: "Pengalaman bermitra dengan <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b> sangat memuaskan. Mereka tidak hanya menyediakan produk berkualitas tinggi, tetapi juga membantu kami memahami karakteristik setiap bahan dengan detail.",
     author: "Diana Putri",
     position: "Executive Chef",
     company: "Rempah Resto Group",
     rating: 5
   },
   {
-    content: "Asam Jawa dari CV. Manalagi memberi sentuhan autentik yang sempurna untuk produk-produk kuliner kami. Selalu tepat waktu dan responsif terhadap kebutuhan khusus kami.",
+    content: "Asam Jawa dari <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b> memberi sentuhan autentik yang sempurna untuk produk-produk kuliner kami. Selalu tepat waktu dan responsif terhadap kebutuhan khusus kami.",
     author: "Budi Santoso",
     position: "Supply Chain Director",
     company: "Sari Sedap Indonesia",
@@ -34,7 +34,7 @@ const TestimonialsSection = () => {
             <span className="border-b-2 border-mutedgold pb-2">Suara Mitra Kami</span>
           </h2>
           <p className="text-offwhite/80 max-w-3xl mx-auto paragraph">
-            Kisah Sukses Bersama CV. Manalagi
+            Kisah Sukses Bersama <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b>
           </p>
         </div>
         

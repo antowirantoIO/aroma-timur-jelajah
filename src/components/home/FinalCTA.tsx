@@ -10,7 +10,7 @@ const FinalCTA = () => {
         </h2>
         
         <p className="text-offwhite/90 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
-          Diskusikan kebutuhan Anda dengan ahli rempah kami. Mari ciptakan keunggulan bersama CV. Manalagi Barokah Makmur Abadi.
+          Diskusikan kebutuhan Anda dengan ahli rempah kami. Mari ciptakan keunggulan bersama <b>CV. MANALAGI BAROKAH MAKMUR ABADI</b> Abadi.
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center gap-4">
