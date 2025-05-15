@@ -154,11 +154,11 @@ const products = [
       "Daun Kering/Bubuk: Kemasan retail dalam pouch food-grade dengan zip-lock atau vacuum-sealed (misal 50g, 100g, 250g).",
       "Kemasan bulk: Dalam karung bersih atau karton dengan lapisan dalam plastik untuk jumlah besar (misal 1kg, 5kg, 10kg), sesuai kebutuhan industri."
     ],
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Piper_aduncum.jpg",
+    image: "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/74/2024/04/27/F-LANDHU-CABAI-JAWA-7-ail-2355476850.jpg",
     gallery: [
-      "https://upload.wikimedia.org/wikipedia/commons/6/6e/Piper_aduncum.jpg",
-      "https://www.socfindoconservation.co.id/asset/plant/645-3-piper-aduncum-l.jpg", // Gambar tanaman Sirih Hutan secara keseluruhan
-      "https://radarlambar.bacakoran.co/upload/1408484c37723342f2f1078e73c43fab.jpg" // Detail daun dan bunga/buah Sirih Hutan
+      "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/74/2024/04/27/F-LANDHU-CABAI-JAWA-7-ail-2355476850.jpg",
+      "https://images.tokopedia.net/img/cache/700/product-1/2020/4/12/373711/373711_e8204dcc-c4bd-46b0-b906-845543ca89a6_648_648.jpg", // Gambar tanaman Sirih Hutan secara keseluruhan
+      "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/74/2024/04/27/F-LANDHU-CABAI-JAWA-8-ail-2088695656.jpg" // Detail daun dan bunga/buah Sirih Hutan
     ]
   }
 ];

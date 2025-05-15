@@ -51,8 +51,8 @@ const products = [
     id: "sirih-hutan", // ID baru untuk Sirih Hutan
     name: "Sirih Hutan",
     category: "Rempah Dasar", // Kategori bisa disesuaikan jika perlu, misalnya "Herbal" atau "Tradisional"
-    description: "Sirih Hutan Segar: Daun Alami dengan Aroma Khas untuk Kebutuhan Tradisional dan Kesehatan.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Piper_aduncum.jpg"
+    description: "Sirih Hutan: Rempah Alami dengan Aroma Khas untuk Kebutuhan Tradisional dan Kesehatan.",
+    image: "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/74/2024/04/27/F-LANDHU-CABAI-JAWA-7-ail-2355476850.jpg"
   }
 ];
 
