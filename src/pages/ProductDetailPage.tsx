@@ -17,9 +17,9 @@ const products = [
     specifications: ["Ukuran: Diameter rata-rata 1.5-2.5cm", "Kadar air: <5%", "Metode pengolahan: Pengeringan matahari (Sun-dried)", "Kadar minyak: Sekitar 60-65%", "Kebersihan: Sortir manual untuk kualitas terbaik"],
     storage: "Simpan di tempat kering, sejuk, dan terhindar dari paparan sinar matahari langsung. Gunakan wadah kedap udara untuk menjaga kesegaran lebih lama.",
     packaging: ["Kemasan retail: 250g, 500g, 1kg", "Kemasan bulk: Karung 5kg, 25kg, 50kg", "Kemasan custom sesuai permintaan pelanggan"],
-    image: "https://media-public.canva.com/o5pBU/MAFdWzo5pBU/1/tl.jpg",
+    image: "https://service.tandycom.online/images/WhatsApp Image 2025-05-16 at 11.47.11 AM.jpeg",
     gallery: [
-      "https://media-public.canva.com/o5pBU/MAFdWzo5pBU/1/tl.jpg",
+      "https://service.tandycom.online/images/WhatsApp Image 2025-05-16 at 11.47.11 AM.jpeg",
       "https://media-public.canva.com/MADJlI5i8rs/1/thumbnail_large.jpg",
       "https://service.tandycom.online/images/kemiri.png"
     ]

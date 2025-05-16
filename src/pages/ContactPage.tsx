@@ -118,6 +118,27 @@ Terima kasih!
 
             <div className="card-highlight group hover:border-forestgreen transition-all p-8 text-center">
               <div className="w-16 h-16 bg-forestgreen/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <MapPin className="h-8 w-8 text-forestgreen" /> {/* Menggunakan ikon MapPin yang sama */}
+              </div>
+              <h3 className="text-xl font-playfair font-bold mb-3">Warehouse</h3>
+              <p className="text-deepbrown/80 mb-4">
+                JL. Tambak Langon 15, Surabaya, Jl. Tambak Osowilangun, Tambak Langon, Asem Rowo, Surabaya, Jawa Timur 60184
+              </p>
+              <a
+                  href="https://maps.google.com/?q=JL. Tambak Langon 15, Surabaya, Jl. Tambak Osowilangun, Tambak Langon, Asem Rowo, Surabaya, Jawa Timur 60184" // Link Google Maps yang lebih spesifik
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-forestgreen hover:underline inline-flex items-center"
+              >
+                Buka di Google Maps
+                <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg>
+              </a>
+            </div>
+
+            <div className="card-highlight group hover:border-forestgreen transition-all p-8 text-center">
+              <div className="w-16 h-16 bg-forestgreen/10 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Phone className="h-8 w-8 text-forestgreen" />
               </div>
               <h3 className="text-xl font-playfair font-bold mb-3">Telepon</h3>

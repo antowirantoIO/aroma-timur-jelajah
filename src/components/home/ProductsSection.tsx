@@ -8,32 +8,51 @@ const products = [
   {
     id: "kemiri",
     name: "Kemiri",
+    category: "Rempah Dasar",
     description: "Kemiri Pilihan: Inti Kenikmatan, Kilau Alami untuk Karya Kuliner dan Kecantikan Anda.",
-    image: "https://media-public.canva.com/o5pBU/MAFdWzo5pBU/1/tl.jpg"
+    image: "https://service.tandycom.online/images/WhatsApp Image 2025-05-16 at 11.47.11 AM.jpeg"
   },
   {
     id: "asam",
     name: "Asam Jawa",
+    category: "Perasa",
     description: "Asam Jawa Murni: Sentuhan Asam Memikat yang Mengangkat Setiap Cita Rasa Masakan.",
     image: "https://media-public.canva.com/JfZcI/MADza5JfZcI/1/tl.jpg"
   },
   {
-    id: "sirih-hutan",
-    name: "Sirih Hutan",
-    description: "Sirih Hutan: Rempah Alami dengan Aroma Khas untuk Kebutuhan Tradisional dan Kesehatan.",
-    image: "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/74/2024/04/27/F-LANDHU-CABAI-JAWA-7-ail-2355476850.jpg"
-  },
-  {
     id: "kopra",
     name: "Kopra",
+    category: "Bahan Baku",
     description: "Kopra Premium: Kelapa Terseleksi untuk Ekstraksi Minyak Berkualitas Tinggi.",
     image: "https://media-public.canva.com/O-MjM/MAECayO-MjM/1/tl.jpg"
   },
   {
     id: "porang",
     name: "Porang",
+    category: "Bahan Baku",
     description: "Porang Unggul: Umbi Terstandarisasi untuk Industri Pangan dan Suplemen.",
     image: "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2022/11/04045014/Mengenal-Tanaman-Porang-Bahan-Baku-Pembuatan-Shirataki.jpg.webp"
+  },
+  {
+    id: "kunyit",
+    name: "Kunyit Kering",
+    category: "Rempah Dasar",
+    description: "Kunyit Kering Premium: Warna Kuning Cerah, Aroma Kuat, untuk Kebutuhan Masakan dan Kesehatan.",
+    image: "https://media-public.canva.com/RaNbk/MAFkTmRaNbk/1/tl.jpg"
+  },
+  {
+    id: "kacang",
+    name: "Kacang Mete",
+    category: "Olahan",
+    description: "Kacang Mete Pilihan: Tekstur Renyah dengan Cita Rasa Khas NTT.",
+    image: "https://media-public.canva.com/MADW_jrdwW4/1/thumbnail_large-1.jpg"
+  },
+  {
+    id: "sirih-hutan", // ID baru untuk Sirih Hutan
+    name: "Sirih Hutan",
+    category: "Rempah Dasar", // Kategori bisa disesuaikan jika perlu, misalnya "Herbal" atau "Tradisional"
+    description: "Sirih Hutan: Rempah Alami dengan Aroma Khas untuk Kebutuhan Tradisional dan Kesehatan.",
+    image: "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/74/2024/04/27/F-LANDHU-CABAI-JAWA-7-ail-2355476850.jpg"
   }
 ];
 

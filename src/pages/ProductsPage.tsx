@@ -10,7 +10,7 @@ const products = [
     name: "Kemiri",
     category: "Rempah Dasar",
     description: "Kemiri Pilihan: Inti Kenikmatan, Kilau Alami untuk Karya Kuliner dan Kecantikan Anda.",
-    image: "https://media-public.canva.com/o5pBU/MAFdWzo5pBU/1/tl.jpg"
+    image: "https://service.tandycom.online/images/WhatsApp Image 2025-05-16 at 11.47.11 AM.jpeg"
   },
   {
     id: "asam",
