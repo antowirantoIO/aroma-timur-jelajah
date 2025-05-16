@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="font-playfair text-2xl font-bold text-beige mb-4">CV. Manalagi</h3>
+            <h3 className="font-playfair text-2xl font-bold text-beige mb-4">CV. MANALAGI BAROKAH MAKMUR ABADI</h3>
             <p className="text-offwhite">
               Supplier terpercaya hasil bumi premium dari Nusa Tenggara Timur sejak 2010.
             </p>
@@ -88,6 +88,12 @@ const Footer = () => {
                 <Phone className="mr-2 h-5 w-5 text-beige flex-shrink-0" />
                 <a href="https://wa.me/+6281223378900" className="text-offwhite hover:text-beige/80 transition-colors">
                   +62 812 2337 8900
+                </a>
+              </li>
+              <li className="flex">
+                <Phone className="mr-2 h-5 w-5 text-beige flex-shrink-0" />
+                <a href="https://wa.me/+62881234588819" className="text-offwhite hover:text-beige/80 transition-colors">
+                  +62 812 3458 8819
                 </a>
               </li>
               <li className="flex">
