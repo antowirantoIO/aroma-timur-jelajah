@@ -125,40 +125,40 @@ const products = [
     ]
   },
   {
-    id: "sirih-hutan",
-    name: "Sirih Hutan",
-    category: "Rempah Dasar", // Bisa juga "Herbal Tradisional" jika ingin kategori baru
-    tagline: "Keajaiban Alam Pedalaman: Kesegaran dan Khasiat Sirih Hutan Asli",
-    description: "Sirih Hutan Alami: Daun Pilihan dengan Aroma Khas Menyegarkan untuk Ragam Kebutuhan Tradisional dan Kesehatan Anda.",
-    fullDescription: "Temukan kesegaran dan khasiat alami dari Sirih Hutan (Piper aduncum) pilihan kami, yang dipetik langsung dari lingkungan alaminya. Dikenal secara turun-temurun karena sifat antiseptik, anti-inflamasi, dan aromatiknya yang kuat, Sirih Hutan menawarkan solusi herbal untuk perawatan luka ringan, menjaga kesehatan mulut, meredakan gangguan pencernaan ringan, hingga sebagai komponen penting dalam berbagai ritual tradisional. Daunnya yang hijau segar memiliki aroma khas yang tajam dan menyegarkan, menjadikannya pilihan utama bagi mereka yang menghargai kearifan lokal dan mencari bahan alami berkualitas tinggi untuk kesehatan dan upacara adat.",
-    aroma: "Sangat khas, segar, pedas (seperti lada), sedikit getir dengan nuansa herbal yang kuat dan kadang terasa sentuhan mint atau eukaliptus samar.",
-    rasa: "Saat dikunyah atau diseduh: Pedas, sepat (astringent), sedikit pahit, meninggalkan sensasi hangat dan bersih di mulut. Tidak umum dikonsumsi langsung sebagai makanan.",
-    uses: [
-      "Perawatan luka luar (sebagai antiseptik alami, membantu menghentikan pendarahan dan mempercepat penyembuhan)",
-      "Menjaga kesehatan mulut (dikunyah untuk menyegarkan napas, mengatasi sariawan, radang gusi)",
-      "Bahan dalam ramuan obat tradisional (rebusan untuk gangguan pencernaan, batuk, demam)",
-      "Digunakan dalam upacara adat dan ritual budaya tertentu",
-      "Sebagai pengharum ruangan alami atau komponen dalam potpourri karena aromanya yang kuat",
-      "Potensi sebagai bahan baku pestisida nabati atau minyak atsiri dengan sifat antibakteri dan antijamur"
+    "id": "sirih-hutan",
+    "name": "Sirih Hutan",
+    "category": "Rempah Dasar", // Still fits as a basic spice, or could be "Herbal Tradisional"
+    "tagline": "Kekuatan Tradisi Nusantara: Cabai Jamu Asli dengan Khasiat dan Rasa Pedas Hangat",
+    "description": "Cabai Jamu Alami: Rempah Pilihan dengan Cita Rasa Pedas dan Manfaat Kesehatan untuk Tradisi dan Kebugaran Anda.",
+    "fullDescription": "Rasakan kehangatan dan manfaat alami dari Cabai Jamu (Piper retrofractum) pilihan kami, yang dipanen langsung dari alam Nusantara. Dikenal sebagai salah satu rempah utama dalam resep jamu tradisional, Cabai Jamu memiliki sifat menghangatkan tubuh, meningkatkan stamina, melancarkan pencernaan, dan mendukung kesehatan secara alami. Dengan rasa pedas yang khas dan aroma yang kuat, rempah ini menjadi pilihan ideal untuk campuran jamu, bumbu masakan, atau bahkan pengobatan tradisional seperti meredakan masuk angin, pegal linu, dan meningkatkan daya tahan tubuh. Produk ini diolah dari buah Cabai Jamu berkualitas, menjaga keaslian rasa dan khasiatnya untuk kebutuhan Anda.",
+    "aroma": "Khas rempah, pedas, sedikit manis dengan sentuhan hangat seperti lada, disertai nuansa herbal yang lembut.",
+    "rasa": "Pedas hangat, sedikit pahit, dengan aftertaste yang menghangatkan tenggorokan, cocok untuk campuran minuman atau masakan.",
+    "uses": [
+      "Campuran jamu tradisional (meningkatkan stamina, meredakan masuk angin, dan pegal linu)",
+      "Bumbu masakan (menambah cita rasa pedas hangat pada sup, soto, atau masakan berkuah lainnya)",
+      "Obat tradisional (direbus untuk mengatasi gangguan pencernaan, batuk, atau demam ringan)",
+      "Meningkatkan sirkulasi darah dan menghangatkan tubuh",
+      "Bahan alami untuk minyak urut atau balsem tradisional karena sifat menghangatkannya",
+      "Potensi sebagai bahan ekstrak untuk suplemen kesehatan atau produk herbal"
     ],
-    specifications: [
-      "Bentuk Produk: Daun Segar Utuh / Daun Kering Rajangan / Bubuk Halus (sesuai permintaan)",
-      "Asal: Diperoleh dari tumbuhan Sirih Hutan (Piper aduncum) liar atau budidaya terbatas",
-      "Proses Pengeringan (untuk daun kering): Alami dengan diangin-anginkan atau oven suhu rendah untuk menjaga kualitas",
-      "Sortasi: Pemilihan daun berkualitas baik, bebas dari penyakit dan kerusakan fisik berlebih",
-      "Kadar Air (untuk daun kering/bubuk): Idealnya < 10-12% untuk penyimpanan optimal"
+    "specifications": [
+      "Bentuk Produk: Buah Kering Utuh / Rajangan / Bubuk Halus (sesuai permintaan)",
+      "Asal: Diperoleh dari tanaman Cabai Jamu (Piper retrofractum) liar atau budidaya berkelanjutan",
+      "Proses Pengeringan: Alami di bawah sinar matahari atau oven suhu rendah untuk menjaga kualitas",
+      "Sortasi: Pemilihan buah berkualitas tinggi, bebas dari jamur dan kerusakan fisik",
+      "Kadar Air (untuk produk kering/bubuk): < 10-12% untuk daya simpan optimal"
     ],
-    storage: "Daun Segar: Simpan dalam wadah bersih dan sedikit lembab (misalnya dibungkus kertas/kain lembab) di dalam kulkas; gunakan dalam beberapa hari untuk kesegaran maksimal. Daun Kering/Bubuk: Simpan dalam wadah kedap udara, di tempat yang sejuk, kering, dan gelap (terhindar dari sinar matahari langsung) untuk mempertahankan aroma dan khasiatnya lebih lama.",
-    packaging: [
-      "Daun Segar: Ikatan (misalnya per 100g, 200g, 500g), atau dalam kantong plastik berlubang.",
-      "Daun Kering/Bubuk: Kemasan retail dalam pouch food-grade dengan zip-lock atau vacuum-sealed (misal 50g, 100g, 250g).",
-      "Kemasan bulk: Dalam karung bersih atau karton dengan lapisan dalam plastik untuk jumlah besar (misal 1kg, 5kg, 10kg), sesuai kebutuhan industri."
+    "storage": "Buah Kering/Bubuk: Simpan dalam wadah kedap udara di tempat sejuk, kering, dan terhindar dari sinar matahari langsung untuk menjaga aroma dan khasiat. Hindari tempat lembab agar tidak berjamur.",
+    "packaging": [
+      "Buah Kering Utuh: Kemasan per ikat (misalnya 50g, 100g, 200g) dalam plastik berlubang atau pouch.",
+      "Bubuk/Rajangan: Kemasan retail dalam pouch food-grade dengan zip-lock (misal 50g, 100g, 250g).",
+      "Kemasan bulk: Karung bersih atau karton dengan lapisan plastik untuk jumlah besar (misal 1kg, 5kg, 10kg), sesuai kebutuhan industri."
     ],
-    image: "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/74/2024/04/27/F-LANDHU-CABAI-JAWA-7-ail-2355476850.jpg",
-    gallery: [
+    "image": "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/74/2024/04/27/F-LANDHU-CABAI-JAWA-7-ail-2355476850.jpg",
+    "gallery": [
       "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/74/2024/04/27/F-LANDHU-CABAI-JAWA-7-ail-2355476850.jpg",
-      "https://images.tokopedia.net/img/cache/700/product-1/2020/4/12/373711/373711_e8204dcc-c4bd-46b0-b906-845543ca89a6_648_648.jpg", // Gambar tanaman Sirih Hutan secara keseluruhan
-      "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/74/2024/04/27/F-LANDHU-CABAI-JAWA-8-ail-2088695656.jpg" // Detail daun dan bunga/buah Sirih Hutan
+      "https://images.tokopedia.net/img/cache/700/product-1/2020/4/12/373711/373711_e8204dcc-c4bd-46b0-b906-845543ca89a6_648_648.jpg", // Tanaman Cabai Jamu secara keseluruhan
+      "https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/74/2024/04/27/F-LANDHU-CABAI-JAWA-8-ail-2088695656.jpg" // Detail buah Cabai Jamu
     ]
   }
 ];

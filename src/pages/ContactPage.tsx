@@ -78,7 +78,7 @@ Terima kasih!
               <div className="w-16 h-16 bg-forestgreen/10 rounded-full flex items-center justify-center mx-auto mb-6">
                 <MapPin className="h-8 w-8 text-forestgreen" />
               </div>
-              <h3 className="text-xl font-playfair font-bold mb-3">Alamat Kami</h3>
+              <h3 className="text-xl font-playfair font-bold mb-3">Head Office</h3>
               <p className="text-deepbrown/80 mb-4">
                 Jl. Terusan Timor Raya Km. 7, Kupang, Nusa Tenggara Timur, 85228, Indonesia
               </p>
