@@ -21,7 +21,7 @@ const products = [
     gallery: [
       "https://service.tandycom.online/images/WhatsApp Image 2025-05-16 at 11.47.11 AM.jpeg",
       "https://media-public.canva.com/MADJlI5i8rs/1/thumbnail_large.jpg",
-      "https://service.tandycom.online/images/kemiri.png"
+      "https://service.tandycom.online/images/WhatsApp Image 2025-05-16 at 11.43.38 AM.jpeg"
     ]
   },
   {

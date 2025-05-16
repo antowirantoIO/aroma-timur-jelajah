@@ -39,19 +39,19 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-8">
           <Link 
             to="/"
-            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname === '/') ? 'text-forestgreen' : 'text-charcoal'}`}
+            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname === '/') ? 'text-forestgreen font-extrabold' : 'text-charcoal'}`}
           >
             Beranda
           </Link>
           <Link 
             to="/about"
-            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname === '/about') ? 'text-forestgreen' : 'text-charcoal'}`}
+            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname === '/about') ? 'text-forestgreen font-extrabold' : 'text-charcoal'}`}
           >
             Tentang Kami
           </Link>
           <Link 
             to="/products"
-            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname.includes('/products')) ? 'text-forestgreen' : 'text-charcoal'}`}
+            className={`font-opensans font-medium hover:text-forestgreen transition-colors ${(location.pathname.includes('/products')) ? 'text-forestgreen font-extrabold' : 'text-charcoal'}`}
           >
             Produk
           </Link>
